@@ -3,13 +3,13 @@ libraries:
   动漫:
     collection_files:
       - file: config/1-Anime.yml
-#      - file: config/1-Anime_Genres.yml
-#      - file: config/1-Anime_Franchises.yml
-#      - file: config/1-Anime_Networks.yml
-#      - file: config/1-Anime_Separators.yml
-#      - file: config/1-Anime_Specials.yml
+      - file: config/1-Anime_Genres.yml
+      - file: config/1-Anime_Franchises.yml
+      - file: config/1-Anime_Networks.yml
+      - file: config/1-Anime_Separators.yml
+      - file: config/1-Anime_Specials.yml
       # 按照年代创建动漫合集
-#      - file: config/1-Anime_Years.yml
+      - file: config/1-Anime_Years.yml
     operations:
       mass_audience_rating_update: mdb_myanimelist
     overlay_files:
@@ -23,15 +23,15 @@ libraries:
   电影:
     collection_files:
       - file: config/3-Movies.yml
-# 仅保留几个重要奖项，有需要可以把注释放开
+      # 仅保留几个重要奖项，有需要可以把注释放开
       - file: config/3-Movies_Awards.yml
-# 定义了太多系列电影，检索时间太长，暂时关闭
-#      - file: config/3-Movies_Franchises.yml
-# 按类别分类，同样太乱，去掉，可以考虑保留一些特定合集，比如悬疑、犯罪，但是最好以外部链接创建的合集为准
-#      - file: config/3-Movies_Genres.yml
-# 都是外国节日，仅保留圣诞节部分，后期加上国内特色的节日电影
-#      - file: config/3-Movies_Holidays
-#      - file: config/3-Movies_People.yml
+      # 定义了太多系列电影，检索时间太长，暂时关闭
+      - file: config/3-Movies_Franchises.yml
+      # 按类别分类，同样太乱，去掉，可以考虑保留一些特定合集，比如悬疑、犯罪，但是最好以外部链接创建的合集为准
+      - file: config/3-Movies_Genres.yml
+      # 都是外国节日，仅保留圣诞节部分，后期加上国内特色的节日电影
+      - file: config/3-Movies_Holidays
+      - file: config/3-Movies_People.yml
       - file: config/3-Movies_Separators.yml
       - file: config/3-Movies_Specials.yml
       - file: config/3-Movies_Studios.yml
@@ -64,13 +64,13 @@ libraries:
   剧集:
     collection_files:
       - file: config/7-TV.yml
-#      - file: config/7-TV_Awards.yml
-#      - file: config/7-TV_Franchises.yml
-#      - file: config/7-TV_Genres.yml
-#      - file: config/7-TV_Networks.yml
-#      - file: config/7-TV_Separators.yml
-#      - file: config/7-TV_Specials.yml
-#      - file: config/7-TV_Years.yml
+      - file: config/7-TV_Awards.yml
+      - file: config/7-TV_Franchises.yml
+      - file: config/7-TV_Genres.yml
+      - file: config/7-TV_Networks.yml
+      - file: config/7-TV_Separators.yml
+      - file: config/7-TV_Specials.yml
+      - file: config/7-TV_Years.yml
     operations:
       mass_audience_rating_update: imdb
     overlay_files:
@@ -96,9 +96,12 @@ settings:
   show_missing_season_assets: false
   show_missing_episode_assets: false
   show_asset_not_needed: true
-  sync_mode: append
-  minimum_items: 1
+  # Will add and remove any items that are added/removed from the source Builder.
+  sync_mode: sync
+  # Set the minimum number of items that must be found in order to build or update a collection/playlist.
+  minimum_items: 5
   default_collection_order:
+  # When a collection is run, delete the collection if it is below the minimum number specified by minimum_items
   delete_below_minimum: true
   delete_not_scheduled: false
   run_again_delay: 2
