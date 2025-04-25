@@ -1,15 +1,18 @@
-# 🚀 Kometa Config (Formerly Plex Meta Manager)
 
-My Kometa config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
+# 🚀 Kometa 配置 (原 Plex Meta Manager)
 
-## ⚙️ Installation Guide (Docker Compose)
+这是我的 Kometa 配置，用于为 Plex 自动创建合集和叠层。这些文件最初基于模板创建，自 2021 年以来经过我（原作者 jhn322）彻底重写/编辑并定期更新。在叠层方面，我侧重于提供一目了然的实用信息，同时避免过度堆砌；合集方面则力求全面，但又不至于信息过载。
+
+*（译者注：本仓库是基于 jhn322/kometa-config 的 Fork，旨在进行优化和汉化，使其更符合中国用户的观影习惯。）*
+
+## ⚙️ 安装指南 (Docker Compose)
 
 > [!NOTE]
-> How to install Kometa using docker compose with a daily run schedule for collections, overlays and operations as a stack of three containers.
+> 本指南介绍如何使用 Docker Compose 安装 Kometa，并将其配置为包含三个容器的堆栈 (stack)，每日定时运行以处理合集、叠层和操作。
 
-### Prerequisites
+### 前提条件
 
-Before installation, you'll need API keys from these services for full functionality for the majority of lists and overlays:
+在安装之前，您需要获取以下服务的 API 密钥，以确保大部分列表和叠层的完整功能：
 
 - [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
 - [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)
@@ -19,126 +22,161 @@ Before installation, you'll need API keys from these services for full functiona
 - [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
 - [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
 
-### Option 1: Docker Compose (Recommended)
+### 选项一：Docker Compose (推荐)
 
-1. Clone/download this repository.
-2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
-3. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
-4. Open terminal and navigate to your path:
+1.  克隆或下载本仓库。
+2.  在 `config.yml` 文件中，添加**您**本地 Plex 服务器的 IP 地址和[令牌 (token)](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)，并**务必**将每个库的标题 (`library` 下的键名，如 `Movies`) 修改为您 Plex 库的**确切**名称。
+3.  (如果尚未安装) 请安装 [Docker 及 Docker Compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) 或适用于 Windows/Mac 的 [Docker Desktop](https://www.docker.com/products/docker-desktop/)。虽然也可以在本地使用 Python 运行，但长远来看不推荐此方式，详情请参阅 [Wiki](https://metamanager.wiki/en/latest/kometa/install/local/)。
+4.  打开终端并导航到您的 Kometa 配置文件夹路径：
 
-```powershell
-Linux: "cd /path/to/Kometa-folder"
+    ```powershell
+    # Linux
+    cd /path/to/Kometa-folder
 
-Windows: "cd C:\path\to\Kometa-folder"
+    # Windows
+    cd C:\path\to\Kometa-folder
 
-Mac: "cd ~/path/to/Kometa-folder"
-```
+    # Mac
+    cd ~/path/to/Kometa-folder
+    ```
 
-5. Now paste this in the terminal to create the containers:
+5.  现在，在终端中粘贴以下命令来创建容器：
 
-```powershell
-Linux: "sudo docker-compose up -d"
+    ```powershell
+    # Linux (如果需要 root 权限)
+    sudo docker-compose up -d
+    
+    # Windows/Mac 或 Linux (无需 root)
+    docker-compose up -d
+    ```
 
-Windows/Mac: "docker-compose up -d"
-```
-
-**Done!**
+**完成！**
 
 > [!TIP]
-> External lists (like Trakt or Letterboxd) can sometimes lead to errors if the list owner deletes the list or changes its URL. To proactively find and identify these dead links in your Kometa YAML files, consider using my [Dead Link Checker](https://github.com/jhn322/dead-link-checker) script. It can scan your configuration and report any inaccessible list URLs from the provided .yml files, helping you maintain a clean and error-free Kometa setup.
+> 外部列表 (如 Trakt 或 Letterboxd) 有时会因列表所有者删除列表或更改 URL 而导致错误。为了主动查找并识别 Kometa YAML 文件中的这些失效链接，可以考虑使用原作者的 [Dead Link Checker](https://github.com/jhn322/dead-link-checker) 脚本。它可以扫描您的配置文件并报告所提供 `.yml` 文件中任何无法访问的列表 URL，帮助您维护一个干净且无错误的 Kometa 设置。
 
-### Option 2: Combined Container
+### 选项二：合并容器
 
 > [!NOTE]
-> An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
+> 另一种方法是使用单个容器连续运行所有 3 种不同的库操作（合集、叠层、操作）。要使用此方法：
 >
-> 1. Rename the original `docker-compose.yml` to `docker-compose-original.yml`
-> 2. Rename `docker-compose COMBINED.yml` to `docker-compose.yml`
-> 3. Run the combined container using the same method as in previous step.
+> 1. 将原始的 `docker-compose.yml` 重命名为 `docker-compose-original.yml` (或其他名称)。
+> 2. 将 `docker-compose COMBINED.yml` 重命名为 `docker-compose.yml`。
+> 3. 使用与选项一中步骤 5 相同的方法运行合并后的容器。
 
 > [!WARNING]
-> While simpler and faster to finish its run, the combined approach is generally not recommended for Plex servers with larger libraries. I've found running all operations continuously, in order according to the config.yml can potentially cause Plex to become unresponsive and/or crash. The separated container approach is more stable and recommended, but takes longer to complete.
+> 虽然这种合并方法运行起来更简单、完成更快，但对于拥有大型库的 Plex 服务器，通常**不推荐**使用。根据原作者的经验，连续按 `config.yml` 中的顺序运行所有操作可能会导致 Plex 无响应和/或崩溃。分离容器的方法（选项一）更稳定，是推荐的方式，尽管完成时间较长。
 
-### Option 3: Docker Run Commands
+### 选项三：Docker Run 命令
 
-If for some reason you don't want to use Docker compose, simply utilize the run commands to achieve the same result:
+如果您因某种原因不想使用 Docker Compose，只需使用以下 `docker run` 命令即可达到相同效果（请将 `/path/to/Kometa-folder` 替换为您的实际路径）：
 
 ```powershell
-Linux:
+# Linux
 sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
 sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
 sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
 
-Windows:
+# Windows
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
 
-Mac:
+# Mac
 docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
 docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
 docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
 ```
 
-#### For Testing (One-time run):
+- `-op --time 06:00`: 每天 06:00 运行操作 (Operations)
+- `-ov --time 06:30`: 每天 06:30 运行叠层 (Overlays)
+- `-co --time 08:00`: 每天 08:00 运行合集 (Collections)
 
-```powershell
-Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
+#### 用于测试 (单次运行):
 
-Windows: docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run
+如果您想立即手动触发一次运行以进行测试：
 
-Mac: docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
+PowerShell
+
+```
+# Linux
+sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
+
+# Windows
+docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run
+
+# Mac
+docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
 ```
 
-## 🔄 Updating Kometa
+## 🔄 更新 Kometa 镜像
 
-```powershell
-Stable: docker pull kometateam/kometa
-Develop: docker pull kometateam/kometa:develop
-Nightly: docker pull kometateam/kometa:nightly
+要更新 Kometa 的 Docker 镜像到最新版本：
+
+PowerShell
+
+```
+# 拉取稳定版 (Stable)
+docker pull kometateam/kometa
+
+# 拉取开发版 (Develop)
+docker pull kometateam/kometa:develop
+
+# 拉取每夜版 (Nightly)
+docker pull kometateam/kometa:nightly
 ```
 
-## 📋 Supported Libraries
+更新镜像后，如果使用的是 Docker Compose，您需要停止并重新创建容器来应用新镜像：
 
-| Library Type   | Status              |
-| -------------- | ------------------- |
-| 🎬 Movies      | Active              |
-| 📺 TV Shows    | Active              |
-| 🏮 Anime       | Active              |
-| 🎵 Music       | Active              |
-| 🎞️ Remux       | Active              |
-| 📚 Audiobooks  | Disabled by default |
-| 🎼 Soundtracks | Disabled by default |
-| 🎥 Videos      | Disabled by default |
+PowerShell
 
-### 💾 Collections examples
+```
+# Linux (如果需要 root)
+sudo docker-compose down
+sudo docker-compose up -d
 
-**Movies**
+# Windows/Mac 或 Linux (无需 root)
+docker-compose down
+docker-compose up -d
+```
 
-![image search api](https://i.imgur.com/5Ot6ziT.png)
+如果使用的是 `docker run` 命令，您需要手动停止 (`docker stop <container_id>`)、删除 (`docker rm <container_id>`) 旧容器，然后使用新的镜像重新运行 `docker run` 命令。
 
-**TV**
+## 📋 支持的库类型
 
-![image search api](https://i.imgur.com/4Z28s9A.png)
+下表列出了此配置当前支持（或可以启用）的 Plex 库类型：
 
-**Anime**
+| 库类型     | 状态     |
+| ---------- | -------- |
+| 🎬 电影     | 启用     |
+| 📺 电视节目 | 启用     |
+| 🏮 动漫     | 启用     |
+| 🎵 音乐     | 启用     |
+| 🎞️ Remux    | 启用     |
+| 📚 有声读物 | 默认禁用 |
+| 🎼 原声带   | 默认禁用 |
+| 🎥 视频     | 默认禁用 |
 
-![image search api](https://i.imgur.com/kTwTjW8.png)
+导出到 Google 表格
 
-### Overlays examples
+*（注：默认禁用的库类型可以通过修改 `config.yml` 文件来启用。）*
 
-**Movies**
+### 💾 合集示例
 
-![image search api](https://i.imgur.com/cTeNiMb.png)
+**电影 (Movies)**
 
-**TV**
+**电视节目 (TV Shows)**
 
-![image search api](https://i.imgur.com/7cUfZ53.png)
+**动漫 (Anime)**
+
+### 🖼️ 叠层示例
+
+**电影 (Movies)**
+
+**电视节目 (TV Shows)**
 
 **Remux**
 
-![image search api](https://i.imgur.com/lcFOxiG.png)
+## 📚 文档
 
-## 📚 Documentation
-
-For more detailed information, visit the [official Kometa wiki](https://metamanager.wiki/en/latest/).
+欲了解 Kometa 的更多详细信息和高级配置，请访问 [Kometa 官方 Wiki](https://metamanager.wiki/en/latest/)。
