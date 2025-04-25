@@ -28,7 +28,8 @@ templates:
 
 # Movies who has won some the most prestigious awards
 collections:
-  BAFTA - Best Film:
+#  BAFTA - Best Film:
+  英国学院奖 - 最佳影片:
     template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Best Film.png
@@ -43,7 +44,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  BAFTA - Nominees:
+#  BAFTA - Nominees:
+  英国学院奖 - 提名名单:
     template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Nominees.png
@@ -56,7 +58,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  BAFTA - Winners:
+#  BAFTA - Winners:
+  英国学院奖 - 获奖名单:
     template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     visible_shared: monthly(3)
@@ -70,13 +73,15 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Berlinale - Winners:
+#  Berlinale - Winners:
+  柏林电影节 - 金熊奖得主:
     template: { name: Award }
     summary: The Berlin International Film Festival, also known as Berlinale, is one of the largest and most prestigious film festivals in the world. It is held annually in Berlin, Germany, and showcases a diverse range of international films.
     file_poster: config/posters/Berlinale Winners.png
     letterboxd_list: https://letterboxd.com/koyoti/list/berlinale-golden-bear-winners/
 
-  Cannes - Palme d'Or:
+#  Cannes - Palme d'Or:
+  戛纳电影节 - 金棕榈奖:
     template: { name: Awards }
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
     visible_shared: monthly(17)
@@ -91,7 +96,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Critics Choice Awards - Winners:
+#  Critics Choice Awards - Winners:
+  评论家选择奖 - 获奖名单:
     template: { name: Awards }
     summary: The Critics' Choice Movie Awards (formerly known as the Broadcast Film Critics Association Award) is an awards show presented annually by the American-Canadian Critics Choice Association to honor the finest in cinematic achievement.
     visible_shared: monthly(14)
@@ -105,13 +111,15 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  European Film Award - Winners:
+#  European Film Award - Winners:
+  欧洲电影奖 - 获奖名单:
     template: { name: Award }
     summary: The European Film Awards (EFA) is an annual awards ceremony that honors outstanding achievements in European cinema. The awards were first presented in 1988, and since then, they have become one of the most prestigious film awards in the world.
     file_poster: config/posters/European Film Awards Winners.png
     letterboxd_list: https://letterboxd.com/ra_pha/list/european-film-awards/
 
-  Golden Globe - Best Picture:
+#  Golden Globe - Best Picture:
+  金球奖 - 最佳影片:
     template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_library: true
@@ -134,7 +142,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Golden Globe - Nominees:
+#  Golden Globe - Nominees:
+  金球奖 - 提名名单:
     template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
@@ -150,7 +159,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Golden Globe - Winners:
+#  Golden Globe - Winners:
+  金球奖 - 获奖名单:
     template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_library: true
@@ -167,7 +177,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Oscars - Best Picture:
+#  Oscars - Best Picture:
+  奥斯卡 - 最佳影片:
     template: { name: Awards }
     visible_library: true
     visible_shared:
@@ -187,7 +198,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Oscars - Nominees:
+#  Oscars - Nominees:
+  奥斯卡 - 提名名单:
     template: { name: Awards }
     file_poster: config/posters/Oscars Nominees.png
     summary: Oscar Category Winning Movies.
@@ -200,7 +212,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Oscars - Winners:
+#  Oscars - Winners:
+  奥斯卡 - 获奖名单:
     template: { name: Awards }
     visible_library: true
     visible_shared:
@@ -216,7 +229,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Razzies - Worst Picture:
+#  Razzies - Worst Picture:
+  金酸莓奖 - 最差影片:
     template: { name: Awards }
     summary: Worst movies of the year award.
     file_poster: config/posters/Razzie Worst Picture.png
@@ -229,7 +243,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Screen Actors Guild Awards - Winners:
+#  Screen Actors Guild Awards - Winners:
+  演员工会奖 - 获奖名单:
     template: { name: Award }
     summary: Screen Actors Guild Awards are accolades given by the Screen Actors Guild-American Federation of Television and Radio Artists. The award was founded in 1995 to recognize outstanding performances in movie and prime time television. SAG Awards have been one of the major awards events in the Hollywood film industry since then, along with the Golden Globe Awards and the Oscars. SAG awards focus both on individual performances and on the work of the entire ensemble of a drama series and comedy series, and the cast of a motion picture.
     file_poster: config/posters/Screen Actors Guild Awards Winners.png
@@ -237,7 +252,8 @@ collections:
       - https://letterboxd.com/keithbarber/list/sag-awards/
       - https://letterboxd.com/jonny5244/list/sag-awards/
 
-  Sundance - Winners:
+#  Sundance - Winners:
+  圣丹斯 - 获奖名单:
     template: { name: Awards }
     summary: A list of all (with exceptions of short movies) films that won awards at the American Sundance Film Festival.
     visible_library: true
@@ -252,7 +268,8 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Venice - Best Film:
+#  Venice - Best Film:
+  威尼斯 - 最佳影片:
     template: { name: Awards }
     summary: The Venice Film Festival or Venice International Film Festival is an annual film festival held in Venice, Italy. It is the world's oldest film festival and one of the big six International film festivals worldwide, which include the Big Three European Film Festivals, alongside the Toronto Film Festival in Canada the Sundance Film Festival in the United States and the Melbourne International Film Festival in Australia.
     visible_library: true

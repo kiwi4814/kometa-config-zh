@@ -24,20 +24,21 @@ templates:
     visible_library: true
 
 collections:
-  IMDb - Best Recent: # IMDb specific chart lists
+#  IMDb - Best Recent: # IMDb specific chart lists
+  IMDb - 近期佳作:
     template: { name: Movie Top }
     sort_title: ++_IMDb Best Recent
     visible_shared:
       - monthly(19)
       - monthly(20)
-    summary: Movies rated 6.8 or higher on IMDb, released in the past 3 months.
+    summary: Movies rated 7.0 or higher on IMDb, released in the past 6 months.
     file_poster: config/posters/IMDb Best Recent.png
     smart_filter:
       sort_by: audience_rating.desc
       validate: false
       all:
         audience_rating.gte: 7.0
-        release: 90
+        release: 180
 
   IMDb - Top 250:
     template: { name: Movie Basic }
@@ -50,13 +51,15 @@ collections:
     file_poster: config/posters/IMDb Top 250 Gold.png
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
 
-  Letterboxd - Best Picture: # Letterboxd specific chart lists
+#  Letterboxd - Best Picture: # Letterboxd specific chart lists
+  Letterboxd - 年度最佳:
     template: { name: Movie Release }
     summary: Best movie of every year according to Letterboxd.
     file_poster: config/posters/Letterboxd Best Picture.png
     letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
 
-  Letterboxd - Million Watched:
+#  Letterboxd - Million Watched:
+  Letterboxd - 百万观看:
     template: { name: Movie }
     summary: Movies with over a million views on Letterboxd.
     file_poster: config/posters/Letterboxd Million Watched.png
@@ -64,7 +67,8 @@ collections:
       - https://letterboxd.com/jabison/list/letterboxd-two-million-watched-club/
       - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
 
-  Letterboxd - Most Fans:
+#  Letterboxd - Most Fans:
+  Letterboxd - 最多粉丝:
     template: { name: Movie }
     summary: Movies with the most "fans" on Letterboxd.
     visible_shared: monthly(15)
@@ -79,28 +83,32 @@ collections:
     file_poster: config/posters/Letterboxd Top 250 Gold.png
     trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
 
-  MAL - Most Favorited: # MyAnimeList specific chart lists
+#  MAL - Most Favorited: # MyAnimeList specific chart lists
+  MAL - 收藏最多:
     template: { name: Movie }
     mal_favorite: 500
     visible_library: false
     summary: Most favorited animes on MyAnimeList.
     file_poster: config/posters/MAL Most Favorited.png
 
-  MAL - Popular:
+#  MAL - Popular:
+  MAL - 热门动画:
     template: { name: Movie }
     mal_popular: 500
     visible_library: false
     summary: Anime movies popular this season according to MyAnimeList and Anilist.
     file_poster: config/posters/MAL Popular.png
 
-  MAL - Top Rated:
+#  MAL - Top Rated:
+  MAL - 高分动画:
     template: { name: Movie }
     mal_movie: 500
     visible_shared: monthly(18)
     summary: The highest rated anime movies ever according to MyAnimeList.
     file_poster: config/posters/MAL Top Rated Gold.png
 
-  Metacritic - Must-See:
+#  Metacritic - Must-See:
+  Metacritic - 必看推荐:
     template: { name: Movie }
     limit: 200
     visible_shared: monthly(31)
@@ -108,7 +116,8 @@ collections:
     file_poster: config/posters/Metacritic Must See.png
     trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-movies?sort=rank,asc
 
-  Popular: # Popular list from IMDb, Trakt and TMDb
+#  Popular: # Popular list from IMDb, Trakt and TMDb
+  热门精选:
     template: { name: Movie }
     tmdb_popular: 50
     trakt_chart:
@@ -124,7 +133,8 @@ collections:
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
 
-  RT - Certified Fresh: # Rotten Tomatoes specific chart lists
+#  RT - Certified Fresh: # Rotten Tomatoes specific chart lists
+  烂番茄 - 新鲜认证:
     template: { name: Movie }
     limit: 200
     visible_shared: monthly(14)
@@ -132,7 +142,8 @@ collections:
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
     trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
 
-  TMDb - Now Playing: # TMDb specific chart lists
+#  TMDb - Now Playing: # TMDb specific chart lists
+  TMDb - 正在热映:
     template: { name: Movie Release }
     tmdb_now_playing: 50
     file_poster: config/posters/TMDb Now Playing.png
@@ -140,7 +151,8 @@ collections:
     visible_shared: monthly(3)
     summary: Recentley released movies on TMDb.
 
-  Top Rated: # Top rated list from Trakt and TMdb
+#  Top Rated: # Top rated list from Trakt and TMdb
+  高分精选:
     template: { name: Movie }
     tmdb_top_rated: 350
     sort_title: +_Top Rated
@@ -154,7 +166,8 @@ collections:
     summary: Top Rated Movies on Trakt and TMDb.
     trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
 
-  TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
+#  TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
+  周盗版排行 (TF):
     template: { name: Movie Basic }
     summary: Most pirated movies of the week according TorrentFreak.
     visible_library: false
@@ -162,7 +175,8 @@ collections:
     file_poster: config/posters/TorrentFreak Most Pirated.png
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
 
-  Trakt - Most Watched (All-Time): # Trakt specific chart lists
+#  Trakt - Most Watched (All-Time): # Trakt specific chart lists
+  Trakt - 观看总榜:
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -172,7 +186,8 @@ collections:
     visible_shared: monthly(13)
     summary: Movies most watched online of all time.
 
-  Trakt - Most Watched (Monthly):
+#  Trakt - Most Watched (Monthly):
+  Trakt - 观看月榜:
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -182,7 +197,8 @@ collections:
     summary: Most watched movies across the internet this month.
     visible_shared: monthly(10)
 
-  Trakt - Most Watched (Yearly):
+#  Trakt - Most Watched (Yearly):
+  Trakt - 观看年榜:
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -192,7 +208,8 @@ collections:
     summary: Most watched movies across the internet this year.
     visible_shared: monthly(12)
 
-  Trakt - Recommended:
+#  Trakt - Recommended:
+  Trakt - 为您推荐:
     template: { name: Movie }
     trakt_recommendations: 60
     sort_title: ++_Trakt - Recommended
@@ -200,7 +217,8 @@ collections:
     visible_shared: monthly(19)
     file_poster: config/posters/Trakt Recommended.png
 
-  Trending: # Trending list from Trakt and TMDb
+#  Trending: # Trending list from Trakt and TMDb
+  时下热门:
     template: { name: Movie Release }
     tmdb_trending_weekly: 30
     trakt_chart:
