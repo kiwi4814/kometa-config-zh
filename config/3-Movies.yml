@@ -167,13 +167,13 @@ collections:
     trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
 
 #  TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
-  周盗版排行 (TF):
-    template: { name: Movie Basic }
-    summary: Most pirated movies of the week according TorrentFreak.
-    visible_library: false
-    collection_order: custom
-    file_poster: config/posters/TorrentFreak Most Pirated.png
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+#  周盗版排行 (TF):
+#    template: { name: Movie Basic }
+#    summary: Most pirated movies of the week according TorrentFreak.
+#    visible_library: false
+#    collection_order: custom
+#    file_poster: config/posters/TorrentFreak Most Pirated.png
+#    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
 
 #  Trakt - Most Watched (All-Time): # Trakt specific chart lists
   Trakt - 观看总榜:

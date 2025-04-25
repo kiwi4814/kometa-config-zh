@@ -1,15 +1,15 @@
 # Change the library names below to your exact(!) plex library names.
 libraries:
-  Anime:
+  动漫:
     collection_files:
       - file: config/1-Anime.yml
-      - file: config/1-Anime_Genres.yml
-      - file: config/1-Anime_Franchises.yml
-      - file: config/1-Anime_Networks.yml
-      - file: config/1-Anime_Separators.yml
-      - file: config/1-Anime_Specials.yml
+#      - file: config/1-Anime_Genres.yml
+#      - file: config/1-Anime_Franchises.yml
+#      - file: config/1-Anime_Networks.yml
+#      - file: config/1-Anime_Separators.yml
+#      - file: config/1-Anime_Specials.yml
       # 按照年代创建动漫合集
-      - file: config/1-Anime_Years.yml
+#      - file: config/1-Anime_Years.yml
     operations:
       mass_audience_rating_update: mdb_myanimelist
     overlay_files:
@@ -20,7 +20,7 @@ libraries:
   # Audiobooks:
   # collection_files:
   # - file: config/2-Audiobooks_Genres.yml
-  Movies:
+  电影:
     collection_files:
       - file: config/3-Movies.yml
 # 仅保留几个重要奖项，有需要可以把注释放开
@@ -31,7 +31,7 @@ libraries:
 #      - file: config/3-Movies_Genres.yml
 # 都是外国节日，仅保留圣诞节部分，后期加上国内特色的节日电影
 #      - file: config/3-Movies_Holidays
-      - file: config/3-Movies_People.yml
+#      - file: config/3-Movies_People.yml
       - file: config/3-Movies_Separators.yml
       - file: config/3-Movies_Specials.yml
       - file: config/3-Movies_Studios.yml
@@ -43,34 +43,34 @@ libraries:
       - file: config/3.1-Movies_Overlays_Rating.yml
       # - file: config/3.1-Movies_Overlays_Subtitle.yml
       - file: config/3.1-Movies_Overlays_Top.yml
-  Music:
-    collection_files:
-      - file: config/4-Music.yml
-      - file: config/4-Music_Genres.yml
-      - file: config/4-Music_Separators.yml
-  Remux:
-    collection_files:
-      - file: config/5-Remux.yml
-    overlay_files:
-      - file: config/5.1-Remux_Overlays.yml
-      - file: config/5.1-Remux_Overlays_Audio.yml
-      - file: config/5.1-Remux_Overlays_Rating.yml
-      - file: config/5.1-Remux_Overlays_Top.yml
+#  Music:
+#    collection_files:
+#      - file: config/4-Music.yml
+#      - file: config/4-Music_Genres.yml
+#      - file: config/4-Music_Separators.yml
+#  Remux:
+#    collection_files:
+#      - file: config/5-Remux.yml
+#    overlay_files:
+#      - file: config/5.1-Remux_Overlays.yml
+#      - file: config/5.1-Remux_Overlays_Audio.yml
+#      - file: config/5.1-Remux_Overlays_Rating.yml
+#      - file: config/5.1-Remux_Overlays_Top.yml
   # Soundtracks:
   # collection_files:
   # - file: config/6-Soundtracks.yml
   # - file: config/6-Soundtracks_Genres.yml
   # - file: config/6-Soundtracks_Separators.yml
-  TV:
+  剧集:
     collection_files:
       - file: config/7-TV.yml
-      - file: config/7-TV_Awards.yml
-      - file: config/7-TV_Franchises.yml
-      - file: config/7-TV_Genres.yml
-      - file: config/7-TV_Networks.yml
-      - file: config/7-TV_Separators.yml
-      - file: config/7-TV_Specials.yml
-      - file: config/7-TV_Years.yml
+#      - file: config/7-TV_Awards.yml
+#      - file: config/7-TV_Franchises.yml
+#      - file: config/7-TV_Genres.yml
+#      - file: config/7-TV_Networks.yml
+#      - file: config/7-TV_Separators.yml
+#      - file: config/7-TV_Specials.yml
+#      - file: config/7-TV_Years.yml
     operations:
       mass_audience_rating_update: imdb
     overlay_files:
