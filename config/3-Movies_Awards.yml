@@ -29,7 +29,7 @@ templates:
 # Movies who has won some the most prestigious awards
 collections:
 #  BAFTA - Best Film:
-  英国学院奖 - 最佳影片:
+  英国学院奖·最佳影片:
     template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Best Film.png
@@ -74,14 +74,14 @@ collections:
 #      limit: 9999
 
 #  Berlinale - Winners:
-  柏林电影节 - 金熊奖得主:
+  柏林电影节·金熊奖得主:
     template: { name: Award }
     summary: The Berlin International Film Festival, also known as Berlinale, is one of the largest and most prestigious film festivals in the world. It is held annually in Berlin, Germany, and showcases a diverse range of international films.
     file_poster: config/posters/Berlinale Winners.png
     letterboxd_list: https://letterboxd.com/koyoti/list/berlinale-golden-bear-winners/
 
 #  Cannes - Palme d'Or:
-  戛纳电影节 - 金棕榈奖:
+  戛纳电影节·金棕榈奖:
     template: { name: Awards }
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
     visible_shared: monthly(17)
@@ -97,7 +97,7 @@ collections:
       limit: 9999
 
 #  Critics Choice Awards - Winners:
-  评论家选择奖 - 获奖名单:
+  评论家选择奖·获奖电影:
     template: { name: Awards }
     summary: The Critics' Choice Movie Awards (formerly known as the Broadcast Film Critics Association Award) is an awards show presented annually by the American-Canadian Critics Choice Association to honor the finest in cinematic achievement.
     visible_shared: monthly(14)
@@ -119,7 +119,7 @@ collections:
 #    letterboxd_list: https://letterboxd.com/ra_pha/list/european-film-awards/
 
 #  Golden Globe - Best Picture:
-  金球奖 - 最佳影片:
+  金球奖·最佳影片:
     template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_library: true
@@ -178,7 +178,7 @@ collections:
 #      limit: 9999
 
 #  Oscars - Best Picture:
-  奥斯卡 - 最佳影片:
+  奥斯卡·最佳影片:
     template: { name: Awards }
     visible_library: true
     visible_shared:
@@ -269,7 +269,7 @@ collections:
 #      limit: 9999
 
 #  Venice - Best Film:
-  威尼斯 - 最佳影片:
+  威尼斯·最佳影片:
     template: { name: Awards }
     summary: The Venice Film Festival or Venice International Film Festival is an annual film festival held in Venice, Italy. It is the world's oldest film festival and one of the big six International film festivals worldwide, which include the Big Three European Film Festivals, alongside the Toronto Film Festival in Canada the Sundance Film Festival in the United States and the Melbourne International Film Festival in Australia.
     visible_library: true

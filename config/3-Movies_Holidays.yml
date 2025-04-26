@@ -11,7 +11,8 @@ templates:
 
 # Holiday collections that will show up when the holiday has started and disappear when it has ended
 collections:
-  Christmas 🎅:
+#  Christmas 🎅:
+  圣诞节 🎅:
     template: { name: Holiday }
     visible_home: range(12/01-12/26)
     visible_shared: range(12/01-12/26)
@@ -23,18 +24,19 @@ collections:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/questdvd/lists/absolute-hayes-christmas-classics
 
-  Easter 🐣:
-    template: { name: Holiday }
-    visible_home: range(03/22-04/20)
-    visible_shared: range(03/22-04/20)
-    summary: The Easter bunny is here!
-    file_poster: config/posters/Easter.png
-    trakt_list:
-      - https://trakt.tv/users/smwixted/lists/easter?sort=votes,asc
-      - https://trakt.tv/users/galacticboy/lists/easter-movies?sort=rank,asc
-      - https://trakt.tv/users/brandnu76/lists/easter-movies-shows?sort=votes,asc
+#  Easter 🐣:
+#    template: { name: Holiday }
+#    visible_home: range(03/22-04/20)
+#    visible_shared: range(03/22-04/20)
+#    summary: The Easter bunny is here!
+#    file_poster: config/posters/Easter.png
+#    trakt_list:
+#      - https://trakt.tv/users/smwixted/lists/easter?sort=votes,asc
+#      - https://trakt.tv/users/galacticboy/lists/easter-movies?sort=rank,asc
+#      - https://trakt.tv/users/brandnu76/lists/easter-movies-shows?sort=votes,asc
 
-  Fathers Day 👨‍👦:
+#  Fathers Day 👨‍👦:
+  父亲节 👨‍👦:
     template: { name: Holiday }
     visible_home: range(11/08-11/14)
     visible_shared: range(11/08-11/14)
@@ -44,7 +46,8 @@ collections:
       - https://trakt.tv/users/fcisco13/lists/dad-movies?sort=rank,asc
       - https://trakt.tv/users/marko8426/lists/dad-s-best-action-movies?sort=rank,asc
 
-  Halloween 👻:
+#  Halloween 👻:
+  万圣节 👻:
     template: { name: Holiday }
     visible_home: range(10/01-10/31)
     visible_shared: range(10/01-10/31)
@@ -55,7 +58,8 @@ collections:
       - https://trakt.tv/users/membball84/lists/halloween-halloween-halloween?sort=title,asc
       - https://trakt.tv/users/kairbear08/lists/halloween
 
-  Mothers Day 👩‍👧:
+#  Mothers Day 👩‍👧:
+  母亲节 👩‍👧:
     template: { name: Holiday }
     visible_home: range(05/25-05/31)
     visible_shared: range(05/25-05/31)
@@ -65,25 +69,26 @@ collections:
       - https://trakt.tv/users/movie-pal/lists/mother-s-day?sort=rank,asc
       - https://trakt.tv/users/mdm144/lists/mother-s-day?sort=rank,asc
 
-  New Years 🍾:
-    template: { name: Holiday }
-    visible_home: range(12/30-01/05)
-    visible_shared: range(12/30-01/05)
-    summary: Happy New Year!
-    file_poster: config/posters/New Year.png
-    trakt_list:
-      - https://trakt.tv/users/gullibletransport/lists/new-year?sort=random,asc
-      - https://trakt.tv/users/sympli/lists/new-years-movies?sort=rank,asc
-      - https://trakt.tv/users/padawan_seneca/lists/new-years-eve?sort=rank,asc
-      - https://trakt.tv/users/galacticboy/lists/new-years?sort=rank,asc
+#  New Years 🍾:
+#  New Years 🍾:
+#    template: { name: Holiday }
+#    visible_home: range(12/30-01/05)
+#    visible_shared: range(12/30-01/05)
+#    summary: Happy New Year!
+#    file_poster: config/posters/New Year.png
+#    trakt_list:
+#      - https://trakt.tv/users/gullibletransport/lists/new-year?sort=random,asc
+#      - https://trakt.tv/users/sympli/lists/new-years-movies?sort=rank,asc
+#      - https://trakt.tv/users/padawan_seneca/lists/new-years-eve?sort=rank,asc
+#      - https://trakt.tv/users/galacticboy/lists/new-years?sort=rank,asc
 
-  Valentines Day 💘:
-    template: { name: Holiday }
-    visible_home: range(02/14-02/15)
-    visible_shared: range(02/14-02/15)
-    summary: Love me tender, love me sweet.
-    file_poster: config/posters/Valentines Day.png
-    trakt_list:
-      - https://trakt.tv/users/movie-pal/lists/valentine-s-day
-      - https://trakt.tv/users/barsaky/lists/den-svateho-valentina-valentine-s-day
-      - https://trakt.tv/users/abbelea/lists/movies-best-of-love
+#  Valentines Day 💘:
+#    template: { name: Holiday }
+#    visible_home: range(02/14-02/15)
+#    visible_shared: range(02/14-02/15)
+#    summary: Love me tender, love me sweet.
+#    file_poster: config/posters/Valentines Day.png
+#    trakt_list:
+#      - https://trakt.tv/users/movie-pal/lists/valentine-s-day
+#      - https://trakt.tv/users/barsaky/lists/den-svateho-valentina-valentine-s-day
+#      - https://trakt.tv/users/abbelea/lists/movies-best-of-love

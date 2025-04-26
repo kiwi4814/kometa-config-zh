@@ -20,7 +20,8 @@ templates:
     sort_title: zzzzzzzzz_<<collection_name>>
 
 collections:
-  Adam Sandler:
+  # Adam Sandler:
+  亚当·桑德勒:
     template: { name: Actor }
     file_poster: config/posters/Adam Sandler.jpg
     visible_shared: range(01/01-01/04)
@@ -28,7 +29,8 @@ collections:
       all:
         actor: Adam Sandler
 
-  Al Pacino:
+  # Al Pacino:
+  阿尔·帕西诺:
     template: { name: Actor }
     file_poster: config/posters/Al Pacino.jpg
     visible_shared:
@@ -38,21 +40,24 @@ collections:
       all:
         actor: Al Pacino
 
-  Alicia Vikander:
+  # Alicia Vikander:
+  艾丽西亚·维坎德:
     template: { name: Actor }
     file_poster: config/posters/Alicia Vikander.jpg
     plex_search:
       all:
         actor: Alicia Vikander
 
-  Ana de Armas:
+  # Ana de Armas:
+  安娜·德·阿玛斯:
     template: { name: Actor }
     file_poster: config/posters/Ana de Armas.jpg
     plex_search:
       all:
         actor: Ana de Armas
 
-  Anne Hathaway:
+  # Anne Hathaway:
+  安妮·海瑟薇:
     template: { name: Actor }
     file_poster: config/posters/Anne Hathaway.jpg
     visible_shared: range(01/27-01/30)
@@ -60,14 +65,16 @@ collections:
       all:
         actor: Anne Hathaway
 
-  Alexander Skarsgård:
+  # Alexander Skarsgård:
+  亚历山大·斯卡斯加德:
     template: { name: Actor }
     file_poster: config/posters/Alexander Skarsgard.png
     plex_search:
       all:
         actor: Alexander Skarsgård
 
-  Amy Adams:
+  # Amy Adams:
+  艾米·亚当斯:
     template: { name: Actor }
     file_poster: config/posters/Amy Adams.jpg
     visible_shared: range(02/01-02/04)
@@ -75,7 +82,8 @@ collections:
       all:
         actor: Amy Adams
 
-  Anya Taylor-Joy:
+  # Anya Taylor-Joy:
+  安雅·泰勒-乔伊:
     template: { name: Actor }
     file_poster: config/posters/Anya Taylor-Joy.png
     visible_shared: monthly(31)
@@ -83,14 +91,16 @@ collections:
       all:
         actor: Anya Taylor-Joy
 
-  Angelina Jolie:
+  # Angelina Jolie:
+  安吉丽娜·朱莉:
     template: { name: Actor }
     file_poster: config/posters/Angelina Jolie.jpg
     plex_search:
       all:
         actor: Angelina Jolie
 
-  Anthony Hopkins:
+  # Anthony Hopkins:
+  安东尼·霍普金斯:
     template: { name: Actor }
     file_poster: config/posters/Anthony Hopkins.jpg
     visible_shared:
@@ -100,14 +110,16 @@ collections:
       all:
         actor: Anthony Hopkins
 
-  Arnold Schwarzenegger:
+  # Arnold Schwarzenegger:
+  阿诺·施瓦辛格:
     template: { name: Actor }
     file_poster: config/posters/Arnold Schwarzenegger.jpg
     plex_search:
       all:
         actor: Arnold Schwarzenegger
 
-  Ben Affleck:
+  # Ben Affleck:
+  本·阿弗莱克:
     template: { name: Actor }
     file_poster: config/posters/Ben Affleck.jpg
     visible_shared:
@@ -117,7 +129,8 @@ collections:
       all:
         actor: Ben Affleck
 
-  Bill Skarsgård:
+  # Bill Skarsgård:
+  比尔·斯卡斯加德:
     template: { name: Actor }
     file_poster: config/posters/Bill Skarsgard.png
     visible_shared: monthly(5)
@@ -125,7 +138,8 @@ collections:
       all:
         actor: Bill Skarsgård
 
-  Ben Kingsley:
+  # Ben Kingsley:
+  本·金斯利:
     template: { name: Actor }
     file_poster: config/posters/Ben Kingsley.png
     visible_shared: monthly(9)
@@ -133,7 +147,8 @@ collections:
       all:
         actor: Ben Kingsley
 
-  Benedict Cumberbatch:
+  # Benedict Cumberbatch:
+  本尼迪克特·康伯巴奇:
     template: { name: Actor }
     file_poster: config/posters/Benedict Cumberbatch.jpg
     visible_shared:
@@ -143,21 +158,24 @@ collections:
       all:
         actor: Benedict Cumberbatch
 
-  Bryan Cranston:
+  # Bryan Cranston:
+  布莱恩·科兰斯顿:
     template: { name: Actor }
     file_poster: config/posters/Bryan Cranston.png
     plex_search:
       all:
         actor: Bryan Cranston
 
-  Bob Odenkirk:
+  # Bob Odenkirk:
+  鲍勃·奥登科克:
     template: { name: Actor }
     file_poster: config/posters/Bob Odenkirk.png
     plex_search:
       all:
         actor: Bob Odenkirk
 
-  Bradley Cooper:
+  # Bradley Cooper:
+  布莱德利·库珀:
     template: { name: Actor }
     file_poster: config/posters/Bradley Cooper.jpg
     visible_shared: monthly(1)
@@ -165,7 +183,8 @@ collections:
       all:
         actor: Bradley Cooper
 
-  Brad Pitt:
+  # Brad Pitt:
+  布拉德·皮特:
     template: { name: Actor }
     file_poster: config/posters/Brad Pitt.jpg
     visible_shared:
@@ -175,28 +194,32 @@ collections:
       all:
         actor: Brad Pitt
 
-  Brendan Fraser:
+  # Brendan Fraser:
+  布兰登·费舍:
     template: { name: Actor }
     file_poster: config/posters/Brendan fraser.png
     plex_search:
       all:
         actor: Brendan Fraser
 
-  Brie Larson:
+  # Brie Larson:
+  布丽·拉尔森:
     template: { name: Actor }
     file_poster: config/posters/Brie Larson.png
     plex_search:
       all:
         actor: Brie Larson
 
-  Charlie Chaplin:
+  # Charlie Chaplin:
+  查理·卓别林:
     template: { name: Actor }
     file_poster: config/posters/Charlie Chaplin..jpg
     plex_search:
       all:
         actor: Charlie Chaplin
 
-  Christian Bale:
+  # Christian Bale:
+  克里斯蒂安·贝尔:
     template: { name: Actor }
     file_poster: config/posters/Christian Bale.jpg
     visible_shared:
@@ -206,7 +229,8 @@ collections:
       all:
         actor: Christian Bale
 
-  Cillian Murphy:
+  # Cillian Murphy:
+  基里安·墨菲:
     template: { name: Actor }
     file_poster: config/posters/Cillian Murphy.png
     visible_shared: monthly(7)
@@ -214,7 +238,8 @@ collections:
       all:
         actor: Cillian Murphy
 
-  Clint Eastwood:
+  # Clint Eastwood:
+  克林特·伊斯特伍德:
     template: { name: Actor }
     file_poster: config/posters/Clint Eastwood.png
     visible_shared:
@@ -224,42 +249,48 @@ collections:
       all:
         actor: Clint Eastwood
 
-  Cate Blanchett:
+  # Cate Blanchett:
+  凯特·布兰切特:
     template: { name: Actor }
     file_poster: config/posters/Cate Blanchett.png
     plex_search:
       all:
         actor: Cate Blanchett
 
-  Chris Evans:
+  # Chris Evans:
+  克里斯·埃文斯:
     template: { name: Actor }
     file_poster: config/posters/Chris Evans.jpg
     plex_search:
       all:
         actor: Chris Evans
 
-  Chris Pratt:
+  # Chris Pratt:
+  克里斯·帕拉特:
     template: { name: Actor }
     file_poster: config/posters/Chris Pratt.jpg
     plex_search:
       all:
         actor: Chris Pratt
 
-  Christopher Lee:
+  # Christopher Lee:
+  克里斯托弗·李:
     template: { name: Actor }
     file_poster: config/posters/Christopher Lee.jpg
     plex_search:
       all:
         actor: Christopher Lee
 
-  Charles Dance:
+  # Charles Dance:
+  查尔斯·丹斯:
     template: { name: Actor }
     file_poster: config/posters/Charles Dance.png
     plex_search:
       all:
         actor: Charles Dance
 
-  Charlie Hunnam:
+  # Charlie Hunnam:
+  查理·汉纳姆:
     template: { name: Actor }
     file_poster: config/posters/Charlie Hunnam.png
     visible_shared: monthly(13)
@@ -267,14 +298,16 @@ collections:
       all:
         actor: Charlie Hunnam
 
-  Drew Barrymore:
+  # Drew Barrymore:
+  德鲁·巴里摩尔:
     template: { name: Actor }
     file_poster: config/posters/Drew Barrymore.png
     plex_search:
       all:
         actor: Drew Barrymore
 
-  Daniel Craig:
+  # Daniel Craig:
+  丹尼尔·克雷格:
     template: { name: Actor }
     file_poster: config/posters/Daniel Craig.jpg
     visible_shared: monthly(9)
@@ -282,21 +315,24 @@ collections:
       all:
         actor: Daniel Craig
 
-  Daniel Day-Lewis:
+  # Daniel Day-Lewis:
+  丹尼尔·戴-刘易斯:
     template: { name: Actor }
     file_poster: config/posters/Daniel Day-Lewis.png
     plex_search:
       all:
         actor: Daniel Day-Lewis
 
-  Danny DeVito:
+  # Danny DeVito:
+  丹尼·德维托:
     template: { name: Actor }
     file_poster: config/posters/Danny DeVito.png
     plex_search:
       all:
         actor: Danny DeVito
 
-  Denzel Washington:
+  # Denzel Washington:
+  丹泽尔·华盛顿:
     template: { name: Actor }
     file_poster: config/posters/Denzel Washington.jpg
     visible_shared:
@@ -306,7 +342,8 @@ collections:
       all:
         actor: Denzel Washington
 
-  Daniel Radcliffe:
+  # Daniel Radcliffe:
+  丹尼尔·雷德克里夫:
     template: { name: Actor }
     file_poster: config/posters/Daniel Radcliffe.jpg
     visible_shared:
@@ -315,7 +352,8 @@ collections:
       all:
         actor: Daniel Radcliffe
 
-  Dustin Hoffman:
+  # Dustin Hoffman:
+  达斯汀·霍夫曼:
     template: { name: Actor }
     file_poster: config/posters/Dustin Hoffman.png
     visible_shared:
@@ -324,14 +362,16 @@ collections:
       all:
         actor: Dustin Hoffman
 
-  Elijah Wood:
+  # Elijah Wood:
+  伊莱贾·伍德:
     template: { name: Actor }
     file_poster: config/posters/Elijah Wood.jpg
     plex_search:
       all:
         actor: Elijah Wood
 
-  Ed Harris:
+  # Ed Harris:
+  艾德·哈里斯:
     template: { name: Actor }
     file_poster: config/posters/Ed Harris.png
     visible_shared:
@@ -341,7 +381,8 @@ collections:
       all:
         actor: Ed Harris
 
-  Eddie Murphy:
+  # Eddie Murphy:
+  艾迪·墨菲:
     template: { name: Actor }
     file_poster: config/posters/Eddie Murphy.jpg
     visible_shared: monthly(28)
@@ -349,14 +390,16 @@ collections:
       all:
         actor: Eddie Murphy
 
-  Emma Watson:
+  # Emma Watson:
+  艾玛·沃特森:
     template: { name: Actor }
     file_poster: config/posters/Emma Watson.png
     plex_search:
       all:
         actor: Emma Watson
 
-  Edward Norton:
+  # Edward Norton:
+  爱德华·诺顿:
     template: { name: Actor }
     file_poster: config/posters/Edward Norton.png
     visible_shared: monthly(29)
@@ -364,21 +407,24 @@ collections:
       all:
         actor: Edward Norton
 
-  Emily Blunt:
+  # Emily Blunt:
+  艾米莉·布朗特:
     template: { name: Actor }
     file_poster: config/posters/Emily Blunt.png
     plex_search:
       all:
         actor: Emily Blunt
 
-  Emma Stone:
+  # Emma Stone:
+  艾玛·斯通:
     template: { name: Actor }
     file_poster: config/posters/Emma Stone.png
     plex_search:
       all:
         actor: Emma Stone
 
-  Frances McDormand:
+  # Frances McDormand:
+  弗兰西斯·麦克多蒙德:
     template: { name: Actor }
     file_poster: config/posters/Frances McDormand.png
     visible_shared: monthly(30)
@@ -386,21 +432,24 @@ collections:
       all:
         actor: Frances McDormand
 
-  Giancarlo Esposito:
+  # Giancarlo Esposito:
+  吉安卡罗·埃斯波西托:
     template: { name: Actor }
     file_poster: config/posters/Giancarlo Esposito.png
     plex_search:
       all:
         actor: Giancarlo Esposito
 
-  Gal Gadot:
+  # Gal Gadot:
+  盖尔·加朵:
     template: { name: Actor }
     file_poster: config/posters/Gal Gadot.jpg
     plex_search:
       all:
         actor: Gal Gadot
 
-  Gary Oldman:
+  # Gary Oldman:
+  加里·奥德曼:
     template: { name: Actor }
     file_poster: config/posters/Gary Oldman.jpg
     visible_shared: monthly(4)
@@ -408,7 +457,8 @@ collections:
       all:
         actor: Gary Oldman
 
-  Harrison Ford:
+  # Harrison Ford:
+  哈里森·福特:
     template: { name: Actor }
     file_poster: config/posters/Harrison Ford.jpg
     visible_shared: monthly(2)
@@ -416,7 +466,8 @@ collections:
       all:
         actor: Harrison Ford
 
-  Henry Cavill:
+  # Henry Cavill:
+  亨利·卡维尔:
     template: { name: Actor }
     file_poster: config/posters/Henry Cavill.jpg
     visible_shared: range(04/01-04/04)
@@ -424,7 +475,8 @@ collections:
       all:
         actor: Henry Cavill
 
-  Hugh Jackman:
+  # Hugh Jackman:
+  休·杰克曼:
     template: { name: Actor }
     file_poster: config/posters/Hugh Jackman.jpg
     visible_shared: monthly(27)
@@ -432,7 +484,8 @@ collections:
       all:
         actor: Hugh Jackman
 
-  Idris Elba:
+  # Idris Elba:
+  伊德瑞斯·艾尔巴:
     template: { name: Actor }
     file_poster: config/posters/Idris Elba.png
     visible_shared: monthly(6)
@@ -440,7 +493,8 @@ collections:
       all:
         actor: Idris Elba
 
-  Jack Nicholson:
+  # Jack Nicholson:
+  杰克·尼科尔森:
     template: { name: Actor }
     file_poster: config/posters/Jack Nicholson.jpg
     visible_shared:
@@ -450,14 +504,16 @@ collections:
       all:
         actor: Jack Nicholson
 
-  Julianne Moore:
+  # Julianne Moore:
+  朱丽安·摩尔:
     template: { name: Actor }
     file_poster: config/posters/Julianne Moore.png
     plex_search:
       all:
         actor: Julianne Moore
 
-  Jessica Chastain:
+  # Jessica Chastain:
+  杰西卡·查斯坦:
     template: { name: Actor }
     visible_shared: monthly(31)
     file_poster: config/posters/Jessica Chastain.png
@@ -465,7 +521,8 @@ collections:
       all:
         actor: Jessica Chastain
 
-  Julia Roberts:
+  # Julia Roberts:
+  朱莉娅·罗伯茨:
     template: { name: Actor }
     file_poster: config/posters/Julia Roberts.png
     visible_shared: range(05/01-05/04)
@@ -473,56 +530,64 @@ collections:
       all:
         actor: Julia Roberts
 
-  Jamie Lee Curtis:
+  # Jamie Lee Curtis:
+  杰米·李·柯蒂斯:
     template: { name: Actor }
     file_poster: config/posters/Jamie Lee Curtis.png
     plex_search:
       all:
         actor: Jamie Lee Curtis
 
-  James Hong:
+  # James Hong:
+  吴汉章:
     template: { name: Actor }
     file_poster: config/posters/James Hong.png
     plex_search:
       all:
         actor: James Hong
 
-  Jason Momoa:
+  # Jason Momoa:
+  杰森·莫玛:
     template: { name: Actor }
     file_poster: config/posters/Jason Momoa.png
     plex_search:
       all:
         actor: Jason Momoa
 
-  Jason Bateman:
+  # Jason Bateman:
+  杰森·贝特曼:
     template: { name: Actor }
     file_poster: config/posters/Jason Bateman.png
     plex_search:
       all:
         actor: Jason Bateman
 
-  Jon Hamm:
+  # Jon Hamm:
+  乔恩·哈姆:
     template: { name: Actor }
     file_poster: config/posters/Jon Hamm.png
     plex_search:
       all:
         actor: Jon Hamm
 
-  John Goodman:
+  # John Goodman:
+  约翰·古德曼:
     template: { name: Actor }
     file_poster: config/posters/John Goodman.png
     plex_search:
       all:
         actor: John Goodman
 
-  James Gandolfini:
+  # James Gandolfini:
+  詹姆斯·甘多菲尼:
     template: { name: Actor }
     file_poster: config/posters/James Gandolfini.png
     plex_search:
       all:
         actor: James Gandolfini
 
-  John Krasinski:
+  # John Krasinski:
+  约翰·卡拉辛斯基:
     template: { name: Actor }
     file_poster: config/posters/John Krasinski.png
     visible_shared: range(04/25-04/28)
@@ -530,7 +595,8 @@ collections:
       all:
         actor: John Krasinski
 
-  Jake Gyllenhaal:
+  # Jake Gyllenhaal:
+  杰克·吉伦哈尔:
     template: { name: Actor }
     file_poster: config/posters/Jake Gyllenhaal.jpg
     visible_shared:
@@ -540,7 +606,8 @@ collections:
       all:
         actor: Jake Gyllenhaal
 
-  Jared Leto:
+  # Jared Leto:
+  杰瑞德·莱托:
     template: { name: Actor }
     file_poster: config/posters/Jared Leto.jpg
     visible_shared: range(02/25-02/28)
@@ -548,7 +615,8 @@ collections:
       all:
         actor: Jared Leto
 
-  Joaquin Phoenix:
+  # Joaquin Phoenix:
+  华金·菲尼克斯:
     template: { name: Actor }
     file_poster: config/posters/Joaquin Phoenix.jpg
     visible_shared: monthly(30)
@@ -556,14 +624,16 @@ collections:
       all:
         actor: Joaquin Phoenix
 
-  Jack Black:
+  # Jack Black:
+  杰克·布莱克:
     template: { name: Actor }
     file_poster: config/posters/Jack Black.jpg
     plex_search:
       all:
         actor: Jack Black
 
-  Jackie Chan:
+  # Jackie Chan:
+  成龙:
     template: { name: Actor }
     file_poster: config/posters/Jackie Chan.jpg
     visible_shared: monthly(16)
@@ -571,7 +641,8 @@ collections:
       all:
         actor: Jackie Chan
 
-  Jason Statham:
+  # Jason Statham:
+  杰森·斯坦森:
     template: { name: Actor }
     file_poster: config/posters/Jason Statham.jpg
     visible_shared: monthly(29)
@@ -579,7 +650,8 @@ collections:
       all:
         actor: Jason Statham
 
-  Jennifer Lawrence:
+  # Jennifer Lawrence:
+  詹妮弗·劳伦斯:
     template: { name: Actor }
     file_poster: config/posters/Jennifer Lawrence.jpg
     visible_shared: monthly(14)
@@ -587,7 +659,8 @@ collections:
       all:
         actor: Jennifer Lawrence
 
-  Jim Carrey:
+  # Jim Carrey:
+  金·凯瑞:
     template: { name: Actor }
     file_poster: config/posters/Jim Carrey.png
     visible_shared: monthly(15)
@@ -595,7 +668,8 @@ collections:
       all:
         actor: Jim Carrey
 
-  Jamie Foxx:
+  # Jamie Foxx:
+  杰米·福克斯:
     template: { name: Actor }
     file_poster: config/posters/Jamie Foxx.png
     visible_shared: monthly(28)
@@ -603,7 +677,8 @@ collections:
       all:
         actor: Jamie Foxx
 
-  Johnny Depp:
+  # Johnny Depp:
+  约翰尼·德普:
     template: { name: Actor }
     file_poster: config/posters/Johnny Depp.jpg
     visible_shared: monthly(16)
@@ -611,7 +686,8 @@ collections:
       all:
         actor: Johnny Depp
 
-  Keanu Reeves:
+  # Keanu Reeves:
+  基努·里维斯:
     template: { name: Actor }
     file_poster: config/posters/Keanu Reeves.jpg
     visible_shared: monthly(19)
@@ -619,14 +695,16 @@ collections:
       all:
         actor: Keanu Reeves
 
-  Keira Knightley:
+  # Keira Knightley:
+  凯拉·奈特莉:
     template: { name: Actor }
     file_poster: config/posters/Keira Knightley.jpg
     plex_search:
       all:
         actor: Keira Knightley
 
-  Kurt Russell:
+  # Kurt Russell:
+  库尔特·拉塞尔:
     template: { name: Actor }
     file_poster: config/posters/Kurt Russell.jpg
     visible_shared: range(03/27-03/30)
@@ -634,7 +712,8 @@ collections:
       all:
         actor: Kurt Russell
 
-  Leonardo DiCaprio:
+  # Leonardo DiCaprio:
+  莱昂纳多·迪卡普里奥:
     template: { name: Actor }
     file_poster: config/posters/Leonardo DiCaprio.jpg
     visible_shared:
@@ -644,21 +723,24 @@ collections:
       all:
         actor: Leonardo DiCaprio
 
-  Leslie Nielsen:
+  # Leslie Nielsen:
+  莱斯利·尼尔森:
     template: { name: Actor }
     file_poster: config/posters/Leslie Nielsen.png
     plex_search:
       all:
         actor: Leslie Nielsen
 
-  Lupita Nyongo:
+  # Lupita Nyongo: # 原文件是 Lupita Nyongo，但官方名为 Lupita Nyong'o
+  露皮塔·尼永奥:
     template: { name: Actor }
     file_poster: config/posters/Lupita Nyong'o.png
     plex_search:
       all:
         actor: Lupita Nyong'o
 
-  Liam Neeson:
+  # Liam Neeson:
+  连姆·尼森:
     template: { name: Actor }
     file_poster: config/posters/Liam Neeson.jpg
     visible_shared: monthly(14)
@@ -666,7 +748,8 @@ collections:
       all:
         actor: Liam Neeson
 
-  Mark Wahlberg:
+  # Mark Wahlberg:
+  马克·沃尔伯格:
     template: { name: Actor }
     file_poster: config/posters/Mark Wahlberg.jpg
     visible_shared: monthly(23)
@@ -674,7 +757,8 @@ collections:
       all:
         actor: Mark Wahlberg
 
-  Matt Damon:
+  # Matt Damon:
+  马特·达蒙:
     template: { name: Actor }
     file_poster: config/posters/Matt Damon.jpg
     visible_shared: monthly(18)
@@ -682,7 +766,8 @@ collections:
       all:
         actor: Matt Damon
 
-  Matthew McConaughey:
+  # Matthew McConaughey:
+  马修·麦康纳:
     template: { name: Actor }
     file_poster: config/posters/Matthew McConaughey.jpg
     visible_shared: monthly(19)
@@ -690,7 +775,8 @@ collections:
       all:
         actor: Matthew McConaughey
 
-  Mahershala Ali:
+  # Mahershala Ali:
+  马赫沙拉·阿里:
     template: { name: Actor }
     file_poster: config/posters/Mahershala Ali.png
     visible_shared: monthly(13)
@@ -698,7 +784,8 @@ collections:
       all:
         actor: Mahershala Ali
 
-  Meryl Streep:
+  # Meryl Streep:
+  梅丽尔·斯特里普:
     template: { name: Actor }
     file_poster: config/posters/Meryl Streep.jpg
     visible_shared: range(06/27-06/30)
@@ -706,7 +793,8 @@ collections:
       all:
         actor: Meryl Streep
 
-  Michael Shannon:
+  # Michael Shannon:
+  迈克尔·珊农:
     template: { name: Actor }
     file_poster: config/posters/Michael Shannon.png
     visible_shared: monthly(22)
@@ -714,7 +802,8 @@ collections:
       all:
         actor: Michael Shannon
 
-  Max von Sydow:
+  # Max von Sydow:
+  马克斯·冯·叙多夫:
     template: { name: Actor }
     file_poster: config/posters/Max von Sydow.png
     visible_shared: range(06/01-06/04)
@@ -722,28 +811,32 @@ collections:
       all:
         actor: Max von Sydow
 
-  Michelle Yeoh:
+  # Michelle Yeoh:
+  杨紫琼: # 特殊：使用中文名而非音译
     template: { name: Actor }
     file_poster: config/posters/Michelle Yeoh.png
     plex_search:
       all:
         actor: Michelle Yeoh
 
-  Martin Sheen:
+  # Martin Sheen:
+  马丁·辛:
     template: { name: Actor }
     file_poster: config/posters/Martin Sheen.png
     plex_search:
       all:
         actor: Martin Sheen
 
-  Mark Hamill:
+  # Mark Hamill:
+  马克·哈米尔:
     template: { name: Actor }
     file_poster: config/posters/Mark Hamill.png
     plex_search:
       all:
         actor: Mark Hamill
 
-  Mark Ruffalo:
+  # Mark Ruffalo:
+  马克·鲁法洛:
     template: { name: Actor }
     file_poster: config/posters/Mark Ruffalo.jpg
     visible_shared: monthly(20)
@@ -751,7 +844,8 @@ collections:
       all:
         actor: Mark Ruffalo
 
-  Margot Robbie:
+  # Margot Robbie:
+  玛格特·罗比:
     template: { name: Actor }
     file_poster: config/posters/Margot Robbie.jpg
     visible_shared: range(07/01-07/04)
@@ -759,14 +853,16 @@ collections:
       all:
         actor: Margot Robbie
 
-  Michael Caine:
+  # Michael Caine:
+  迈克尔·凯恩:
     template: { name: Actor }
     file_poster: config/posters/Michael Caine.jpg
     plex_search:
       all:
         actor: Michael Caine
 
-  Morgan Freeman:
+  # Morgan Freeman:
+  摩根·弗里曼:
     template: { name: Actor }
     file_poster: config/posters/Morgan Freeman.jpg
     visible_shared: monthly(25)
@@ -774,7 +870,8 @@ collections:
       all:
         actor: Morgan Freeman
 
-  Naomi Watts:
+  # Naomi Watts:
+  娜奥米·沃茨:
     template: { name: Actor }
     file_poster: config/posters/Naomi Watts.png
     visible_shared: range(07/27-07/30)
@@ -782,7 +879,8 @@ collections:
       all:
         actor: Naomi Watts
 
-  Nicole Kidman:
+  # Nicole Kidman:
+  妮可·基德曼:
     template: { name: Actor }
     file_poster: config/posters/Nicole Kidman.png
     visible_shared: range(08/01-08/04)
@@ -790,7 +888,8 @@ collections:
       all:
         actor: Nicole Kidman
 
-  Natalie Portman:
+  # Natalie Portman:
+  娜塔莉·波特曼:
     template: { name: Actor }
     file_poster: config/posters/Natalie Portman.jpg
     visible_shared: monthly(24)
@@ -798,7 +897,8 @@ collections:
       all:
         actor: Natalie Portman
 
-  Oscar Isaac:
+  # Oscar Isaac:
+  奥斯卡·伊萨克:
     template: { name: Actor }
     file_poster: config/posters/Oscar Isaac.jpg
     visible_shared: range(08/27-08/30)
@@ -806,7 +906,8 @@ collections:
       all:
         actor: Oscar Isaac
 
-  Patrick Stewart:
+  # Patrick Stewart:
+  帕特里克·斯图尔特:
     template: { name: Actor }
     file_poster: config/posters/Patrick Stewart.jpg
     visible_shared: range(05/27-05/30)
@@ -814,7 +915,8 @@ collections:
       all:
         actor: Patrick Stewart
 
-  Ralph Fiennes:
+  # Ralph Fiennes:
+  拉尔夫·费因斯:
     template: { name: Actor }
     file_poster: config/posters/Ralph Fiennes.png
     visible_shared: range(09/12-09/15)
@@ -822,7 +924,8 @@ collections:
       all:
         actor: Ralph Fiennes
 
-  Robert Pattinson:
+  # Robert Pattinson:
+  罗伯特·帕丁森:
     template: { name: Actor }
     file_poster: config/posters/Robert Pattinson.jpg
     visible_shared: range(09/01-09/04)
@@ -830,14 +933,16 @@ collections:
       all:
         actor: Robert Pattinson
 
-  Rachel McAdams:
+  # Rachel McAdams:
+  瑞秋·麦克亚当斯:
     template: { name: Actor }
     file_poster: config/posters/Rachel Mcadams.png
     plex_search:
       all:
         actor: Rachel McAdams
 
-  Russell Crowe:
+  # Russell Crowe:
+  罗素·克劳:
     template: { name: Actor }
     file_poster: config/posters/Russel Crowe.png
     visible_shared: range(09/27-09/30)
@@ -845,7 +950,8 @@ collections:
       all:
         actor: Russell Crowe
 
-  Robert De Niro:
+  # Robert De Niro:
+  罗伯特·德尼罗:
     template: { name: Actor }
     file_poster: config/posters/Robert De Niro.jpg
     visible_shared:
@@ -855,7 +961,8 @@ collections:
       all:
         actor: Robert De Niro
 
-  Robert Downey Jr.:
+  # Robert Downey Jr.:
+  小罗伯特·唐尼:
     template: { name: Actor }
     file_poster: config/posters/Robert Downey Jr..jpg
     visible_shared: monthly(24)
@@ -863,14 +970,16 @@ collections:
       all:
         actor: Robert Downey Jr.
 
-  Rowan Atkinson:
+  # Rowan Atkinson:
+  罗温·艾金森:
     template: { name: Actor }
     file_poster: config/posters/Rowan Atkinson.png
     plex_search:
       all:
         actor: Rowan Atkinson
 
-  Robin Williams:
+  # Robin Williams:
+  罗宾·威廉姆斯:
     template: { name: Actor }
     file_poster: config/posters/Robin Williams.jpg
     visible_shared: range(10/01-10/04)
@@ -878,14 +987,16 @@ collections:
       all:
         actor: Robin Williams
 
-  Rami Malek:
+  # Rami Malek:
+  拉米·马雷克:
     template: { name: Actor }
     file_poster: config/posters/Rami Malek.png
     plex_search:
       all:
         actor: Rami Malek
 
-  Ryan Reynolds:
+  # Ryan Reynolds:
+  瑞安·雷诺兹:
     template: { name: Actor }
     file_poster: config/posters/Ryan Reynolds.jpg
     visible_shared: range(10/01-10/04)
@@ -893,28 +1004,32 @@ collections:
       all:
         actor: Ryan Reynolds
 
-  Steve Buscemi:
+  # Steve Buscemi:
+  史蒂夫·布西密:
     template: { name: Actor }
     file_poster: config/posters/Steve Buscemi.png
     plex_search:
       all:
         actor: Steve Buscemi
 
-  Sandra Bullock:
+  # Sandra Bullock:
+  桑德拉·布洛克:
     template: { name: Actor }
     file_poster: config/posters/Sandra Bullock.png
     plex_search:
       all:
         actor: Sandra Bullock
 
-  Sigourney Weaver:
+  # Sigourney Weaver:
+  西格妮·韦弗:
     template: { name: Actor }
     file_poster: config/posters/Sigourney Weaver.png
     plex_search:
       all:
         actor: Sigourney Weaver
 
-  Stellan Skarsgård:
+  # Stellan Skarsgård:
+  斯特兰·斯卡斯加德:
     template: { name: Actor }
     file_poster: config/posters/Stellan Skarsgard.png
     visible_shared: range(10/27-10/30)
@@ -922,14 +1037,16 @@ collections:
       all:
         actor: Stellan Skarsgård
 
-  Song Kang-ho:
+  # Song Kang-ho:
+  宋康昊:
     template: { name: Actor }
     file_poster: config/posters/Song Kang ho.png
     plex_search:
       all:
         actor: Song Kang-ho
 
-  Samuel L. Jackson:
+  # Samuel L. Jackson:
+  塞缪尔·杰克逊:
     template: { name: Actor }
     file_poster: config/posters/Samuel L. Jackson.jpg
     visible_shared: range(12/27-12/30)
@@ -937,35 +1054,40 @@ collections:
       all:
         actor: Samuel L. Jackson
 
-  Sean Connery:
+  # Sean Connery:
+  肖恩·康纳利:
     template: { name: Actor }
     file_poster: config/posters/Sean Connery.jpg
     plex_search:
       all:
         actor: Sean Connery
 
-  Scarlett Johansson:
+  # Scarlett Johansson:
+  斯嘉丽·约翰逊:
     template: { name: Actor }
     file_poster: config/posters/Scarlett Johansson.jpg
     plex_search:
       all:
         actor: Scarlett Johansson
 
-  Scoot McNairy:
+  # Scoot McNairy:
+  斯科特·麦克纳里:
     template: { name: Actor }
     file_poster: config/posters/Scoot McNairy.png
     plex_search:
       all:
         actor: Scoot McNairy
 
-  Steve Carell:
+  # Steve Carell:
+  史蒂夫·卡瑞尔:
     template: { name: Actor }
     file_poster: config/posters/Steve Carell.jpg
     plex_search:
       all:
         actor: Steve Carell
 
-  Steve McQueen:
+  # Steve McQueen:
+  史蒂夫·麦奎因: # 指的是演员 Steve McQueen (1930–1980)，不是导演 Steve McQueen (1969–)
     template: { name: Actor }
     file_poster: config/posters/Steve McQueen.png
     visible_shared:
@@ -974,28 +1096,32 @@ collections:
       all:
         actor: Steve McQueen
 
-  Sylvester Stallone:
+  # Sylvester Stallone:
+  西尔维斯特·史泰龙:
     template: { name: Actor }
     file_poster: config/posters/Sylvester Stallone.jpg
     plex_search:
       all:
         actor: Sylvester Stallone
 
-  Tommy Lee Jones:
+  # Tommy Lee Jones:
+  汤米·李·琼斯:
     template: { name: Actor }
     file_poster: config/posters/Tommy Lee Jones.png
     plex_search:
       all:
         actor: Tommy Lee Jones
 
-  Tilda Swinton:
+  # Tilda Swinton:
+  蒂尔达·斯文顿:
     template: { name: Actor }
     file_poster: config/posters/Tilda Swinton.png
     plex_search:
       all:
         actor: Tilda Swinton
 
-  Tom Cruise:
+  # Tom Cruise:
+  汤姆·克鲁斯:
     template: { name: Actor }
     file_poster: config/posters/Tom Cruise.jpg
     visible_shared:
@@ -1005,7 +1131,8 @@ collections:
       all:
         actor: Tom Cruise
 
-  Tom Hanks:
+  # Tom Hanks:
+  汤姆·汉克斯:
     template: { name: Actor }
     file_poster: config/posters/Tom Hanks.jpg
     visible_shared:
@@ -1015,7 +1142,8 @@ collections:
       all:
         actor: Tom Hanks
 
-  Tom Hardy:
+  # Tom Hardy:
+  汤姆·哈迪:
     template: { name: Actor }
     file_poster: config/posters/Tom Hardy.jpg
     visible_shared: range(11/01-11/04)
@@ -1023,14 +1151,16 @@ collections:
       all:
         actor: Tom Hardy
 
-  Tom Holland:
+  # Tom Holland:
+  汤姆·赫兰德:
     template: { name: Actor }
     file_poster: config/posters/Tom Holland.jpg
     plex_search:
       all:
         actor: Tom Holland
 
-  Viggo Mortensen:
+  # Viggo Mortensen:
+  维果·莫滕森:
     template: { name: Actor }
     file_poster: config/posters/Viggo Mortensen.png
     visible_shared: range(11/27-11/30)
@@ -1038,35 +1168,40 @@ collections:
       all:
         actor: Viggo Mortensen
 
-  Vera Farmiga:
+  # Vera Farmiga:
+  维拉·法梅加:
     template: { name: Actor }
     file_poster: config/posters/Vera Farmiga.png
     plex_search:
       all:
         actor: Vera Farmiga
 
-  Woody Harrelson:
+  # Woody Harrelson:
+  伍迪·哈里森:
     template: { name: Actor }
     file_poster: config/posters/Woody Harrelson.png
     plex_search:
       all:
         actor: Woody Harrelson
 
-  Will Arnett:
+  # Will Arnett:
+  威尔·阿奈特:
     template: { name: Actor }
     file_poster: config/posters/Will Arnett.png
     plex_search:
       all:
         actor: Will Arnett
 
-  Walton Goggins:
+  # Walton Goggins:
+  沃尔顿·戈金斯:
     template: { name: Actor }
     file_poster: config/posters/Walton Goggins.png
     plex_search:
       all:
         actor: Walton Goggins
 
-  Will Smith:
+  # Will Smith:
+  威尔·史密斯:
     template: { name: Actor }
     file_poster: config/posters/Will Smith.png
     visible_shared: range(12/01-12/04)
@@ -1079,7 +1214,8 @@ collections:
   #############################################################
 
   # Collections for prominent Directors
-  Alfred Hitchcock:
+  # Alfred Hitchcock:
+  阿尔弗雷德·希区柯克:
     template: { name: Director }
     file_poster: config/posters/Alfred Hitchcock.png
     visible_shared: range(01/01-01/09)
@@ -1089,7 +1225,8 @@ collections:
         producer: Alfred Hitchcock
         writer: Alfred Hitchcock
 
-  Ang Lee:
+  # Ang Lee:
+  李安: # 特殊：使用中文名
     template: { name: Director }
     file_poster: config/posters/Ang Lee.png
     visible_shared: range(01/10-08/19)
@@ -1099,7 +1236,8 @@ collections:
         producer: Ang Lee
         writer: Ang Lee
 
-  Bong Joon-ho:
+  # Bong Joon-ho:
+  奉俊昊:
     template: { name: Director }
     file_poster: config/posters/Bong Joon-Ho.png
     visible_shared: range(01/20-01/31)
@@ -1109,7 +1247,8 @@ collections:
         producer: Bong Joon-ho
         writer: Bong Joon-ho
 
-  Brian De Palma:
+  # Brian De Palma:
+  布莱恩·德·帕尔玛:
     template: { name: Director }
     file_poster: config/posters/Brian De Palma.png
     visible_shared: range(02/01-02/09)
@@ -1119,7 +1258,8 @@ collections:
         producer: Brian De Palma
         writer: Brian De Palma
 
-  Christopher Nolan:
+  # Christopher Nolan:
+  克里斯托弗·诺兰:
     template: { name: Director }
     file_poster: config/posters/Christopher Nolan.png
     visible_shared: range(02/10-02/19)
@@ -1129,9 +1269,10 @@ collections:
         producer: Christopher Nolan
         writer: Christopher Nolan
 
-  Coen Brothers:
+  # Coen Brothers:
+  科恩兄弟:
     template: { name: Director }
-    summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
+    summary: "乔尔·科恩和伊桑·科恩，合称科恩兄弟，是美国电影导演、制片人、编剧和剪辑师。他们的电影跨越多种类型和风格，并常常颠覆或戏仿这些类型。他们最受好评的作品包括：《抚养亚历桑纳》(1987)、《米勒的十字路口》(1990)、《冰血暴》(1996)、《谋杀绿脚趾》(1998)、《逃狱三王》(2000)、《老无所依》(2007)、《阅后即焚》(2008)、《严肃的男人》(2009)、《大地惊雷》(2010)、《醉乡民谣》(2013)和《巴斯特·斯克鲁格斯的歌谣》(2018)。"
     file_poster: config/posters/Coen Brothers.png
     visible_shared: range(02/20-04/28)
     plex_search:
@@ -1146,7 +1287,8 @@ collections:
           - Joel Coen
           - Ethan Coen
 
-  Danny Boyle:
+  # Danny Boyle:
+  丹尼·博伊尔:
     template: { name: Director }
     file_poster: config/posters/Danny Boyle.png
     visible_shared: range(03/01-03/05)
@@ -1156,7 +1298,8 @@ collections:
         producer: Danny Boyle
         writer: Danny Boyle
 
-  David Fincher:
+  # David Fincher:
+  大卫·芬奇:
     template: { name: Director }
     file_poster: config/posters/David Fincher.png
     visible_shared: range(05/16-05/23)
@@ -1166,7 +1309,8 @@ collections:
         producer: David Fincher
         writer: David Fincher
 
-  David Lynch:
+  # David Lynch:
+  大卫·林奇:
     template: { name: Director }
     file_poster: config/posters/David Lynch.png
     visible_shared: range(03/06-03/13)
@@ -1176,7 +1320,8 @@ collections:
         producer: David Lynch
         writer: David Lynch
 
-  Denis Villeneuve:
+  # Denis Villeneuve:
+  丹尼斯·维伦纽瓦:
     template: { name: Director }
     file_poster: config/posters/Denis Villeneuve.png
     visible_shared: range(03/14-03/19)
@@ -1186,7 +1331,8 @@ collections:
         producer: Denis Villeneuve
         writer: Denis Villeneuve
 
-  Francis Ford Coppola:
+  # Francis Ford Coppola:
+  弗朗西斯·福特·科波拉:
     template: { name: Director }
     file_poster: config/posters/Francis Ford Coppola.png
     visible_shared: range(03/20-03/31)
@@ -1196,7 +1342,8 @@ collections:
         producer: Francis Ford Coppola
         writer: Francis Ford Coppola
 
-  George Lucas:
+  # George Lucas:
+  乔治·卢卡斯:
     template: { name: Director }
     file_poster: config/posters/George Lucas.png
     visible_shared: range(04/01-04/06)
@@ -1206,7 +1353,8 @@ collections:
         producer: George Lucas
         writer: George Lucas
 
-  Guy Ritchie:
+  # Guy Ritchie:
+  盖·里奇:
     template: { name: Director }
     file_poster: config/posters/Guy Ritchie.png
     visible_shared: range(04/07-04/12)
@@ -1216,7 +1364,8 @@ collections:
         producer: Guy Ritchie
         writer: Guy Ritchie
 
-  Guillermo del Toro:
+  # Guillermo del Toro:
+  吉尔莫·德尔·托罗:
     template: { name: Director }
     file_poster: config/posters/Guillermo del Toro.png
     visible_shared: range(04/13-04/19)
@@ -1226,7 +1375,8 @@ collections:
         producer: Guillermo del Toro
         writer: Guillermo del Toro
 
-  Hayao Miyazaki:
+  # Hayao Miyazaki:
+  宫崎骏:
     template: { name: Director }
     file_poster: config/posters/Hayao Miyazaki.png
     visible_shared: range(04/20-04/30)
@@ -1236,7 +1386,8 @@ collections:
         producer: Hayao Miyazaki
         writer: Hayao Miyazaki
 
-  Isao Takahata:
+  # Isao Takahata:
+  高畑勋:
     template: { name: Director }
     file_poster: config/posters/Isao Takahata.png
     visible_shared: range(05/01-05/09)
@@ -1246,7 +1397,8 @@ collections:
         producer: Isao Takahata
         writer: Isao Takahata
 
-  J.J. Abrams:
+  # J.J. Abrams:
+  J·J·艾布拉姆斯:
     template: { name: Director }
     file_poster: config/posters/J.J. Abrams.png
     visible_shared: range(05/10-05/15)
@@ -1256,7 +1408,8 @@ collections:
         producer: J.J. Abrams
         writer: J.J. Abrams
 
-  James Cameron:
+  # James Cameron:
+  詹姆斯·卡梅隆:
     template: { name: Director }
     file_poster: config/posters/James Cameron.png
     visible_shared: range(05/24-05/31)
@@ -1266,7 +1419,8 @@ collections:
         producer: James Cameron
         writer: James Cameron
 
-  John Carpenter:
+  # John Carpenter:
+  约翰·卡朋特:
     template: { name: Director }
     file_poster: config/posters/John Carpenter.png
     visible_shared: range(06/01-06/09)
@@ -1276,7 +1430,8 @@ collections:
         producer: John Carpenter
         writer: John Carpenter
 
-  M. Night Shyamalan:
+  # M. Night Shyamalan:
+  M·奈特·沙马兰:
     template: { name: Director }
     file_poster: config/posters/M. Night Shyamalan.png
     visible_shared: range(06/10-06/19)
@@ -1286,7 +1441,8 @@ collections:
         producer: M. Night Shyamalan
         writer: M. Night Shyamalan
 
-  Martin Scorsese:
+  # Martin Scorsese:
+  马丁·斯科塞斯:
     template: { name: Director }
     file_poster: config/posters/Martin Scorsese.png
     visible_shared: range(06/20-06/30)
@@ -1296,7 +1452,8 @@ collections:
         producer: Martin Scorsese
         writer: Martin Scorsese
 
-  Mel Brooks:
+  # Mel Brooks:
+  梅尔·布鲁克斯:
     template: { name: Director }
     file_poster: config/posters/Mel Brooks.png
     visible_shared: range(07/01-07/09)
@@ -1306,7 +1463,8 @@ collections:
         producer: Mel Brooks
         writer: Mel Brooks
 
-  Michael Mann:
+  # Michael Mann:
+  迈克尔·曼:
     template: { name: Director }
     file_poster: config/posters/Michael Mann.png
     visible_shared: range(07/10-07/19)
@@ -1316,7 +1474,8 @@ collections:
         producer: Michael Mann
         writer: Michael Mann
 
-  Miloš Forman:
+  # Miloš Forman:
+  米洛斯·福尔曼:
     template: { name: Director }
     file_poster: config/posters/Milos Forman.png
     visible_shared: range(07/20-07/31)
@@ -1326,7 +1485,8 @@ collections:
         producer: Miloš Forman
         writer: Miloš Forman
 
-  Oliver Stone:
+  # Oliver Stone:
+  奥利佛·斯通:
     template: { name: Director }
     file_poster: config/posters/Oliver Stone.png
     visible_shared: range(08/01-08/09)
@@ -1336,7 +1496,8 @@ collections:
         producer: Oliver Stone
         writer: Oliver Stone
 
-  Park Chan-wook:
+  # Park Chan-wook:
+  朴赞郁:
     template: { name: Director }
     file_poster: config/posters/Park Chan-wook.png
     visible_shared: range(08/10-08/19)
@@ -1346,7 +1507,8 @@ collections:
         producer: Park Chan-wook
         writer: Park Chan-wook
 
-  Peter Jackson:
+  # Peter Jackson:
+  彼得·杰克逊:
     template: { name: Director }
     file_poster: config/posters/Peter Jackson.png
     visible_shared: range(08/20-08/31)
@@ -1356,7 +1518,8 @@ collections:
         producer: Peter Jackson
         writer: Peter Jackson
 
-  Quentin Tarantino:
+  # Quentin Tarantino:
+  昆汀·塔伦蒂诺:
     template: { name: Director }
     file_poster: config/posters/Quentin Tarantino.png
     visible_shared: range(09/01-09/09)
@@ -1366,7 +1529,8 @@ collections:
         producer: Quentin Tarantino
         writer: Quentin Tarantino
 
-  Ridley Scott:
+  # Ridley Scott:
+  雷德利·斯科特:
     template: { name: Director }
     file_poster: config/posters/Ridley Scott.png
     visible_shared: range(09/10-09/19)
@@ -1376,7 +1540,8 @@ collections:
         producer: Ridley Scott
         writer: Ridley Scott
 
-  Robert Zemeckis:
+  # Robert Zemeckis:
+  罗伯特·泽米吉斯:
     template: { name: Director }
     file_poster: config/posters/Robert Zemeckis.png
     visible_shared: range(09/20-09/30)
@@ -1386,7 +1551,8 @@ collections:
         producer: Robert Zemeckis
         writer: Robert Zemeckis
 
-  Roman Polanski:
+  # Roman Polanski:
+  罗曼·波兰斯基:
     template: { name: Director }
     file_poster: config/posters/Roman Polanski.png
     visible_shared: range(10/01-10/09)
@@ -1396,7 +1562,8 @@ collections:
         producer: Roman Polanski
         writer: Roman Polanski
 
-  Sergio Leone:
+  # Sergio Leone:
+  赛尔乔·莱昂内:
     template: { name: Director }
     file_poster: config/posters/Sergio Leone.png
     visible_shared: range(10/10-10/19)
@@ -1406,7 +1573,8 @@ collections:
         producer: Sergio Leone
         writer: Sergio Leone
 
-  Sidney Lumet:
+  # Sidney Lumet:
+  西德尼·吕美特:
     template: { name: Director }
     file_poster: config/posters/Sidney Lumet.png
     visible_shared: range(10/20-10/31)
@@ -1416,7 +1584,8 @@ collections:
         producer: Sidney Lumet
         writer: Sidney Lumet
 
-  Stanley Kubrick:
+  # Stanley Kubrick:
+  斯坦利·库布里克:
     template: { name: Director }
     file_poster: config/posters/Stanley Kubrick.png
     visible_shared: range(11/01-11/09)
@@ -1426,7 +1595,8 @@ collections:
         producer: Stanley Kubrick
         writer: Stanley Kubrick
 
-  Steven Spielberg:
+  # Steven Spielberg:
+  史蒂文·斯皮尔伯格:
     template: { name: Director }
     file_poster: config/posters/Steven Spielberg.png
     visible_shared: range(11/10-11/19)
@@ -1436,7 +1606,8 @@ collections:
         producer: Steven Spielberg
         writer: Steven Spielberg
 
-  Taika Waititi:
+  # Taika Waititi:
+  塔伊加·维迪提:
     template: { name: Director }
     file_poster: config/posters/Taika Waititi.png
     visible_shared: range(11/20-11/30)
@@ -1446,7 +1617,8 @@ collections:
         producer: Taika Waititi
         writer: Taika Waititi
 
-  Terrence Malick:
+  # Terrence Malick:
+  泰伦斯·马力克:
     template: { name: Director }
     file_poster: config/posters/Terrence Malick.png
     visible_shared: range(12/01-12/09)
@@ -1456,7 +1628,8 @@ collections:
         producer: Terrence Malick
         writer: Terrence Malick
 
-  Tim Burton:
+  # Tim Burton:
+  蒂姆·伯顿:
     template: { name: Director }
     file_poster: config/posters/Tim Burton.png
     visible_shared: range(12/10-12/19)
@@ -1466,7 +1639,8 @@ collections:
         producer: Tim Burton
         writer: Tim Burton
 
-  Wes Anderson:
+  # Wes Anderson:
+  韦斯·安德森:
     template: { name: Director }
     file_poster: config/posters/Wes Anderson.png
     visible_shared: range(12/20-12/30)
@@ -1481,18 +1655,20 @@ collections:
   ######################################################
 
   # Collections for prominent authors
-  Agatha Christie:
+  # Agatha Christie:
+  阿加莎·克里斯蒂:
     template: { name: Author }
-    summary: Dame Agatha Mary Clarissa Christie was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.
+    summary: 阿加莎·玛丽·克拉丽莎·克里斯蒂女爵士，英国作家，以其66部侦探小说和14个短篇小说集而闻名，尤其是围绕虚构侦探赫尔克里·波洛和简·马普尔展开的故事。
     file_poster: config/posters/Agatha Christie.png
     trakt_list:
       - https://trakt.tv/users/wolfd01/lists/agatha-christie-movies?sort=title,asc
       - https://trakt.tv/users/paulison1966/lists/agatha-christie?sort=released,desc
 
-  Stephen King:
+  # Stephen King:
+  斯蒂芬·金:
     template: { name: Author }
     visible_shared: range(10/01-10/31)
-    summary: Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.
+    summary: 斯蒂芬·埃德温·金是美国恐怖、超自然小说、悬疑、犯罪、科幻和奇幻小说的作家。
     file_poster: config/posters/Stephen King.png
     trakt_list:
       - https://trakt.tv/users/sketche1/lists/stephen-king?sort=popularity,asc
