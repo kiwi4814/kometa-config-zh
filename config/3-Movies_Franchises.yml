@@ -1680,7 +1680,7 @@ collections:
   中土世界电影（系列）:
     template: { name: Franchise }
     summary: 包含《霍比特人》三部曲和《指环王》三部曲以及相关衍生作品的所有电影合集。
-    file_poster: config/posters/Lego.jpg
+    file_poster: config/posters/Middle-earth.png
     plex_search:
       any:
         title:

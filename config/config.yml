@@ -99,7 +99,7 @@ settings:
   # Will add and remove any items that are added/removed from the source Builder.
   sync_mode: sync
   # Set the minimum number of items that must be found in order to build or update a collection/playlist.
-  minimum_items: 5
+  minimum_items: 3
   default_collection_order:
   # When a collection is run, delete the collection if it is below the minimum number specified by minimum_items
   delete_below_minimum: true
