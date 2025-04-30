@@ -25,96 +25,105 @@ templates:
 
 collections:
 #  IMDb - Best Recent: # IMDb specific chart lists
-  IMDb·近期佳作:
-    template: { name: Movie Top }
-    sort_title: ++_IMDb Best Recent
-    visible_shared:
-      - monthly(19)
-      - monthly(20)
-    summary: Movies rated 7.0 or higher on IMDb, released in the past 6 months.
-    file_poster: config/posters/IMDb Best Recent.png
-    smart_filter:
-      sort_by: audience_rating.desc
-      validate: false
-      all:
-        audience_rating.gte: 7.0
-        release: 180
-
-  IMDb·Top 250:
+#  IMDb·近期佳作:
+#    template: { name: Movie Top }
+#    sort_title: ++_IMDb Best Recent
+#    visible_shared:
+#      - monthly(19)
+#      - monthly(20)
+#    summary: Movies rated 7.0 or higher on IMDb, released in the past 6 months.
+#    file_poster: config/posters/IMDb Best Recent.png
+#    smart_filter:
+#      sort_by: audience_rating.desc
+#      validate: false
+#      all:
+#        audience_rating.gte: 7.0
+#        release: 180
+  豆瓣 Top 250:
     template: { name: Movie Basic }
-    sort_title: ++_IMDb top 250
+    sort_title: ++_豆瓣Top250
     smart_label: audience_rating.desc
-    summary: 250 highest rated movies on IMDb.
-    visible_shared:
-      - monthly(10)
-      - monthly(11)
-    file_poster: config/posters/IMDb Top 250 Gold.png
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
+    summary: 来自豆瓣用户的最高评分电影排名。
+    visible_library: true
+    file_poster: config/posters/Douban Top 250.png
+    trakt_list: https://trakt.tv/users/fengerzh/lists/douban-movies-top-250?sort=rank,desc
 
-#  Letterboxd - Best Picture: # Letterboxd specific chart lists
-  Letterboxd·年度最佳:
-    template: { name: Movie Release }
-    summary: Best movie of every year according to Letterboxd.
-    file_poster: config/posters/Letterboxd Best Picture.png
-    letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
-
-#  Letterboxd - Million Watched:
-  Letterboxd·百万观看:
-    template: { name: Movie }
-    summary: Movies with over a million views on Letterboxd.
-    file_poster: config/posters/Letterboxd Million Watched.png
-    letterboxd_list:
-      - https://letterboxd.com/jabison/list/letterboxd-two-million-watched-club/
-      - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
-
-#  Letterboxd - Most Fans:
-  Letterboxd·最多粉丝:
-    template: { name: Movie }
-    summary: Movies with the most "fans" on Letterboxd.
-    visible_shared: monthly(15)
-    file_poster: config/posters/Letterboxd Most Fans.png
-    letterboxd_list: https://letterboxd.com/crew/list/most-fans-on-letterboxd/
-
-  Letterboxd·Top 250:
+  IMDb Top 250:
     template: { name: Movie Basic }
-    collection_order: custom
-    visible_shared: monthly(26)
-    summary: 250 best movies according to Letterboxd.
-    file_poster: config/posters/Letterboxd Top 250 Gold.png
-    trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
+    sort_title: ++_IMDb Top 250
+    smart_label: audience_rating.desc
+    summary: IMDb 评分最高的 250 部电影。
+    visible_library: true
+    file_poster: config/posters/IMDb Top 250 Gold.png
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,desc
 
-#  MAL - Most Favorited: # MyAnimeList specific chart lists
-  MAL·收藏最多动画:
-    template: { name: Movie }
-    mal_favorite: 500
-    visible_library: false
-    summary: Most favorited animes on MyAnimeList.
-    file_poster: config/posters/MAL Most Favorited.png
-
-#  MAL - Popular:
-  MAL·热门动画:
-    template: { name: Movie }
-    mal_popular: 500
-    visible_library: false
-    summary: Anime movies popular this season according to MyAnimeList and Anilist.
-    file_poster: config/posters/MAL Popular.png
-
-#  MAL - Top Rated:
-  MAL·高分动画:
+  #  MAL - Top Rated:
+  高分动画电影:
     template: { name: Movie }
     mal_movie: 500
-    visible_shared: monthly(18)
-    summary: The highest rated anime movies ever according to MyAnimeList.
+    visible_library: true
+    summary: MyAnimeList 高分动画电影精选。
     file_poster: config/posters/MAL Top Rated Gold.png
+    smart_label: audience_rating.desc
+
+#  Letterboxd - Best Picture: # Letterboxd specific chart lists
+#  Letterboxd·年度最佳:
+#    template: { name: Movie Release }
+#    summary: Best movie of every year according to Letterboxd.
+#    file_poster: config/posters/Letterboxd Best Picture.png
+#    letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
+
+#  Letterboxd - Million Watched:
+#  Letterboxd·百万观看:
+#    template: { name: Movie }
+#    summary: Movies with over a million views on Letterboxd.
+#    file_poster: config/posters/Letterboxd Million Watched.png
+#    letterboxd_list:
+#      - https://letterboxd.com/jabison/list/letterboxd-two-million-watched-club/
+#      - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
+
+#  Letterboxd - Most Fans:
+#  Letterboxd·最多粉丝:
+#    template: { name: Movie }
+#    summary: Movies with the most "fans" on Letterboxd.
+#    visible_shared: monthly(15)
+#    file_poster: config/posters/Letterboxd Most Fans.png
+#    letterboxd_list: https://letterboxd.com/crew/list/most-fans-on-letterboxd/
+#
+#  Letterboxd·Top 250:
+#    template: { name: Movie Basic }
+#    collection_order: custom
+#    visible_shared: monthly(26)
+#    summary: 250 best movies according to Letterboxd.
+#    file_poster: config/posters/Letterboxd Top 250 Gold.png
+#    trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
+
+#  MAL - Most Favorited: # MyAnimeList specific chart lists
+#  MAL·收藏最多动画:
+#    template: { name: Movie }
+#    mal_favorite: 500
+#    visible_library: false
+#    summary: Most favorited animes on MyAnimeList.
+#    file_poster: config/posters/MAL Most Favorited.png
+
+#  MAL - Popular:
+#  MAL·热门动画:
+#    template: { name: Movie }
+#    mal_popular: 500
+#    visible_library: false
+#    summary: Anime movies popular this season according to MyAnimeList and Anilist.
+#    file_poster: config/posters/MAL Popular.png
+
+
 
 #  Metacritic - Must-See:
-  Metacritic·必看推荐:
-    template: { name: Movie }
-    limit: 200
-    visible_shared: monthly(31)
-    summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
-    file_poster: config/posters/Metacritic Must See.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-movies?sort=rank,asc
+#  Metacritic·必看推荐:
+#    template: { name: Movie }
+#    limit: 200
+#    visible_shared: monthly(31)
+#    summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
+#    file_poster: config/posters/Metacritic Must See.png
+#    trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-movies?sort=rank,asc
 
 #  Popular: # Popular list from IMDb, Trakt and TMDb
   热门精选:
@@ -133,14 +142,28 @@ collections:
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
 
+  #  Trending: # Trending list from Trakt and TMDb
+  本周趋势:
+    template: { name: Movie Release }
+    tmdb_trending_weekly: 30
+    trakt_chart:
+      chart: trending
+      limit: 30
+    sort_title: +_ZTrending
+    visible_shared:
+      - monthly(29)
+      - monthly(30)
+    file_poster: config/posters/Trending.png
+    summary: 本周在 Trakt 和 TMDb 上趋势上升的电影。
+
 #  RT - Certified Fresh: # Rotten Tomatoes specific chart lists
-  烂番茄·新鲜认证:
-    template: { name: Movie }
-    limit: 200
-    visible_shared: monthly(14)
-    summary: Certified fresh A special distinction awarded to the best reviewed movies.
-    file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
-    trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
+#  烂番茄·新鲜认证:
+#    template: { name: Movie }
+#    limit: 200
+#    visible_shared: monthly(14)
+#    summary: Certified fresh A special distinction awarded to the best reviewed movies.
+#    file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
+#    trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
 
 #  TMDb - Now Playing: # TMDb specific chart lists
   # TMDb·正在热映:
@@ -209,24 +232,12 @@ collections:
 #     visible_shared: monthly(12)
 
 #  Trakt - Recommended:
-  Trakt - 为您推荐:
-    template: { name: Movie }
-    trakt_recommendations: 60
-    sort_title: ++_Trakt - Recommended
-    summary: Shows recommended by trakt API.
-    visible_shared: monthly(19)
-    file_poster: config/posters/Trakt Recommended.png
+#  Trakt - 为您推荐:
+#    template: { name: Movie }
+#    trakt_recommendations: 60
+#    sort_title: ++_Trakt - Recommended
+#    summary: Shows recommended by trakt API.
+#    visible_shared: monthly(19)
+#    file_poster: config/posters/Trakt Recommended.png
 
-#  Trending: # Trending list from Trakt and TMDb
-  # 时下热门:
-  #   template: { name: Movie Release }
-  #   tmdb_trending_weekly: 30
-  #   trakt_chart:
-  #     chart: trending
-  #     limit: 30
-  #   sort_title: +_ZTrending
-  #   visible_shared:
-  #     - monthly(29)
-  #     - monthly(30)
-  #   file_poster: config/posters/Trending.png
-  #   summary: Shows trending on Trakt and TMDb this week.
+
