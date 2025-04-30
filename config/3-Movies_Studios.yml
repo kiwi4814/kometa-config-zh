@@ -27,296 +27,352 @@ templates:
 
 # Fetched from TMDb using the studio id and/or name
 collections:
-  20th Century:
+  二十世纪影业: # 20th Century
     template: { name: Studio, company: "25, 127928" }
-    summary: 20th Century Studios is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles and is a subsidiary of Walt Disney Studios, a division of The Walt Disney Company.
+    summary: 二十世纪影业是一家美国电影制片厂，总部位于洛杉矶世纪城的福克斯工作室地块，是华特迪士尼公司旗下华特迪士尼影业的子公司。
+    # summary: 20th Century Studios is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles and is a subsidiary of Walt Disney Studios, a division of The Walt Disney Company.
     file_poster: config/posters/20th Century Studios.png
 
-  20th Century Animation:
+  二十世纪动画: # 20th Century Animation
     template: { name: Studio, company: 11749 }
-    summary: 20th Century Animation is the Disney rebrand of the animation arm of 20th Century Fox studios in 2020.
+    summary: 二十世纪动画是迪士尼于2020年收购二十世纪福克斯后对其动画部门进行的品牌重塑。
+    # summary: 20th Century Animation is the Disney rebrand of the animation arm of 20th Century Fox studios in 2020.
     file_poster: config/posters/20th Century Animation.png
 
   A-1 Pictures:
     template: { name: Studio, company: 13113 }
-    summary: A-1 Pictures Inc. is a Japanese animation studio founded by ex-Sunrise producer Mikihiro Iwata and it is a subsidiary of Sony Music Entertainment Japan's anime production firm Aniplex.
+    summary: A-1 Pictures Inc. 是一家日本动画工作室，由前 Sunrise 制片人岩田干宏创立，是索尼音乐娱乐（日本）旗下动画制作公司 Aniplex 的子公司。
+    # summary: A-1 Pictures Inc. is a Japanese animation studio founded by ex-Sunrise producer Mikihiro Iwata and it is a subsidiary of Sony Music Entertainment Japan's anime production firm Aniplex.
     file_poster: config/posters/A-1 Pictures.png
 
   A24:
     template: { name: Studio, company: 41077 }
-    summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges and based in New York City. It specializes in film distribution, and film and television production.
+    summary: A24 是一家美国独立娱乐公司，于2012年8月20日由 Daniel Katz、David Fenkel 和 John Hodges 在纽约市创立。该公司专注于电影发行以及电影和电视制作。
+    # summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges and based in New York City. It specializes in film distribution, and film and television production.
     file_poster: config/posters/A24.png
 
-#  Aardman:
-#    template: { name: Studio, company: 297 }
-#    summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
-#    file_poster: config/posters/Aardman.png
+  #  阿德曼动画: # Aardman
+  #    template: { name: Studio, company: 297 }
+  #    summary: 阿德曼动画有限公司是一家位于英国布里斯托尔的英国动画工作室。阿德曼以使用定格粘土动画技术制作的电影而闻名，尤其是以“超级无敌掌门狗”(Wallace and Gromit) 为主角的系列。
+  #    # summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
+  #    file_poster: config/posters/Aardman.png
 
-#  Amblin Entertainment:
-#    template: { name: Studio, company: 56 }
-#    summary: Amblin Entertainment, Inc. is an American film production company founded by director and producer Steven Spielberg, and film producers Kathleen Kennedy and Frank Marshall in 1981. The company's headquarters are located in Bungalow 477 of the Universal Studios backlot in Universal City, California. The company distributes all of the films from Amblin Partners under the Amblin Entertainment banner.
-#    file_poster: config/posters/Amblin Entertainment.png
+  #  安布林娱乐: # Amblin Entertainment
+  #    template: { name: Studio, company: 56 }
+  #    summary: 安布林娱乐公司是一家美国电影制作公司，由导演兼制片人史蒂文·斯皮尔伯格以及电影制片人凯瑟琳·肯尼迪和弗兰克·马歇尔于1981年创立。公司总部位于加利福尼亚州环球城环球影城外景地的477号小屋。该公司通过安布林娱乐的品牌发行来自安布林合伙公司的所有电影。
+  #    # summary: Amblin Entertainment, Inc. is an American film production company founded by director and producer Steven Spielberg, and film producers Kathleen Kennedy and Frank Marshall in 1981. The company's headquarters are located in Bungalow 477 of the Universal Studios backlot in Universal City, California. The company distributes all of the films from Amblin Partners under the Amblin Entertainment banner.
+  #    file_poster: config/posters/Amblin Entertainment.png
 
-#  Bad Robot:
-#    template: { name: Studio, company: 11461 }
-#    summary: Bad Robot is an American film and television production company  responsible for the television series Alias, Lost, Fringe, Person of Interest, Revolution and Westworld alongside many fillms
-#    file_poster: config/posters/Bad Robot.png
+  #  坏机器人制片公司: # Bad Robot
+  #    template: { name: Studio, company: 11461 }
+  #    summary: 坏机器人是一家美国电影和电视制作公司，负责制作了《双面女间谍》、《迷失》、《危机边缘》、《疑犯追踪》、《灭世》、《西部世界》等电视剧以及多部电影。
+  #    # summary: Bad Robot is an American film and television production company  responsible for the television series Alias, Lost, Fringe, Person of Interest, Revolution and Westworld alongside many fillms
+  #    file_poster: config/posters/Bad Robot.png
 
-#  Bandai Namco Filmworks:
-#    template: { name: Studio, company: 3153 }
-#    summary: Bandai Namco Filmworks, Inc. previously and still famously known as Sunrise, Inc., is a Japanese animation studio founded in September 1972 and is based in Suginami, Tokyo. Its former names were also Nippon Sunrise and Sunrise Studio.
-#    file_poster: config/posters/Bandai Namco Filmworks.png
+  万代南梦宫影像制作: # Bandai Namco Filmworks
+    template: { name: Studio, company: 3153 }
+    summary: 万代南梦宫影像制作公司，前身为著名动画公司 Sunrise，是一家日本动画工作室，于1972年9月在东京杉并区创立。其曾用名包括日本 Sunrise 和 Sunrise 工作室。
+    # summary: Bandai Namco Filmworks, Inc. previously and still famously known as Sunrise, Inc., is a Japanese animation studio founded in September 1972 and is based in Suginami, Tokyo. Its former names were also Nippon Sunrise and Sunrise Studio.
+    file_poster: config/posters/Bandai Namco Filmworks.png
 
-#  Bones:
-#    template: { name: Studio, company: 2849 }
-#    summary: Bones Inc. is a Japanese animation studio. It has produced numerous series, including RahXephon, No. 6, Wolf's Rain, Scrapped Princess, Eureka Seven, Angelic Layer, Darker than Black, Soul Eater, Ouran High School Host Club, both the 2003 and 2009 adaptations of Fullmetal Alchemist, Star Driver, Gosick, Mob Psycho 100, Space Dandy, Noragami, Bungo Stray Dogs, and My Hero Academia. Its headquarters are located in Igusa, Suginami, Tokyo.
-#    file_poster: config/posters/Bones.png
+  #  BONES: # Bones (通常直接用英文名)
+  #    template: { name: Studio, company: 2849 }
+  #    summary: BONES Inc. 是一家日本动画工作室。它制作了众多系列作品，包括《翼神传说》、《未来都市NO.6》、《狼雨》、《废弃公主》、《交响诗篇》、《天使领域》、《黑之契约者》、《噬魂师》、《樱兰高校男公关部》、2003年版和2009年版的《钢之炼金术师》、《STAR DRIVER》、《GOSICK》、《灵能百分百》、《太空丹迪》、《野良神》、《文豪野犬》和《我的英雄学院》。其总部位于东京杉并区的井草。
+  #    # summary: Bones Inc. is a Japanese animation studio. It has produced numerous series, including RahXephon, No. 6, Wolf's Rain, Scrapped Princess, Eureka Seven, Angelic Layer, Darker than Black, Soul Eater, Ouran High School Host Club, both the 2003 and 2009 adaptations of Fullmetal Alchemist, Star Driver, Gosick, Mob Psycho 100, Space Dandy, Noragami, Bungo Stray Dogs, and My Hero Academia. Its headquarters are located in Igusa, Suginami, Tokyo.
+  #    file_poster: config/posters/Bones.png
 
-#  Brains Base:
-#    template: { name: Studio, company: 22602 }
-#    summary: Brain's Base Co., Ltd. is a Japanese animation studio founded in 1996 by former Tokyo Movie Shinsha staff.
-#    file_poster: config/posters/Brains Base.png
+  #  Brain's Base:
+  #    template: { name: Studio, company: 22602 }
+  #    summary: Brain's Base Co., Ltd. 是一家日本动画工作室，由前东京电影新社 (Tokyo Movie Shinsha) 的员工于1996年创立。
+  #    # summary: Brain's Base Co., Ltd. is a Japanese animation studio founded in 1996 by former Tokyo Movie Shinsha staff.
+  #    file_poster: config/posters/Brains Base.png
 
-#  BRON:
-#    template: { name: Studio, company: 13240 }
-#    summary: Bron Studios (stylized as BRON) is a Canadian motion picture company based in British Columbia owned by Bron Media Corporation. Bron's notable productions include Joker, Bombshell, Queen & Slim, Greyhound, Judas and the Black Messiah, The Mule, Henchmen, Roman J. Israel, Esq., Rudderless, Welcome to Me, The Addams Family, The Willoughbys, and Ghostbusters Afterlife.
-#    file_poster: config/posters/Bron.png
-#
-#  Blumhouse:
-#    template: { name: Studio, company: 3172 }
-#    summary: Blumhouse Productions is an American film and television production company founded in 2000 by Jason Blum. It is known mainly for producing horror films, such as Paranormal Activity, Insidious, The Purge, Split, Get Out, Happy Death Day, Halloween, Us, and The Invisible Man.
-#    file_poster: config/posters/Blumhouse.png
+  #  BRON Studios: # BRON (通常直接用英文名)
+  #    template: { name: Studio, company: 13240 }
+  #    summary: BRON Studios（风格化为 BRON）是一家总部位于加拿大不列颠哥伦比亚省的电影公司，隶属于 Bron Media Corporation。BRON 的著名作品包括《小丑》、《爆炸新闻》、《皇后与瘦子》、《灰猎犬号》、《犹大与黑弥赛亚》、《骡子》、《未来机器城》、《罗曼先生，你好》、《无人引航》、《欢迎来到我的世界》、《亚当斯一家》、《威洛比家的孩子们》和《超能敢死队》。
+  #    # summary: Bron Studios (stylized as BRON) is a Canadian motion picture company based in British Columbia owned by Bron Media Corporation. Bron's notable productions include Joker, Bombshell, Queen & Slim, Greyhound, Judas and the Black Messiah, The Mule, Henchmen, Roman J. Israel, Esq., Rudderless, Welcome to Me, The Addams Family, The Willoughbys, and Ghostbusters Afterlife.
+  #    file_poster: config/posters/Bron.png
+  #
+  #  布伦屋制片公司: # Blumhouse
+  #    template: { name: Studio, company: 3172 }
+  #    summary: 布伦屋制片公司是一家美国电影和电视制作公司，由杰森·布伦于2000年创立。该公司主要以制作恐怖电影而闻名，例如《灵动：鬼影实录》、《潜伏》、《人类清除计划》、《分裂》、《逃出绝命镇》、《忌日快乐》、《月光光心慌慌》、《我们》和《隐形人》。
+  #    # summary: Blumhouse Productions is an American film and television production company founded in 2000 by Jason Blum. It is known mainly for producing horror films, such as Paranormal Activity, Insidious, The Purge, Split, Get Out, Happy Death Day, Halloween, Us, and The Invisible Man.
+  #    file_poster: config/posters/Blumhouse.png
 
-#  Blue Sky:
-#    template: { name: Studio, company: 9383 }
-#    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
-#    file_poster: config/posters/Blue Sky.png
+  蓝天工作室: # Blue Sky
+    template: { name: Studio, company: 9383 }
+    summary: 蓝天工作室是一家位于美国康涅狄格州格林威治的电脑动画电影工作室。它是迪士尼影业内容部门旗下二十世纪动画公司的子公司。
+    # summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
+    file_poster: config/posters/Blue Sky.png
 
-  Columbia Pictures:
+  哥伦比亚影业: # Columbia Pictures
     template: { name: Plex, studio: "Columbia Pictures" }
-    summary: Columbia Pictures is an American film production studio that is a member of the Sony Pictures Motion Picture Group, a division of Sony Entertainment's Sony Pictures Entertainment, which is one of the Big Five studios and a subsidiary of the multinational conglomerate Sony.
+    summary: 哥伦比亚影业公司是一家美国电影制片厂，隶属于索尼影视娱乐旗下的索尼影业电影集团，是索尼娱乐的一个部门，也是跨国企业集团索尼的子公司及好莱坞“五大”电影公司之一。
+    # summary: Columbia Pictures is an American film production studio that is a member of the Sony Pictures Motion Picture Group, a division of Sony Entertainment's Sony Pictures Entertainment, which is one of the Big Five studios and a subsidiary of the multinational conglomerate Sony.
     file_poster: config/posters/Columbia Pictures.png
 
-#  Castle Rock Entertainment:
-#    template: { name: Studio, company: 97 }
-#    summary: Castle Rock Entertainment is an American film and television production company founded in 1987 by Martin Shafer, director Rob Reiner, Andrew Scheinman, Glenn Padnick and Alan Horn. It is a subsidiary of Warner Bros., a division of AT&T's WarnerMedia.
-#    file_poster: config/posters/Castle Rock Entertainment.png
+  城堡石娱乐: # Castle Rock Entertainment
+    template: { name: Studio, company: 97 }
+    summary: 城堡石娱乐是一家美国电影和电视制作公司，由马丁·谢弗、导演罗伯·莱纳、安德鲁·沙因曼、格伦·帕德尼克和艾伦·霍恩于1987年创立。它是 AT&T 旗下华纳传媒部门中华纳兄弟的子公司。
+    # summary: Castle Rock Entertainment is an American film and television production company founded in 1987 by Martin Shafer, director Rob Reiner, Andrew Scheinman, Glenn Padnick and Alan Horn. It is a subsidiary of Warner Bros., a division of AT&T's WarnerMedia.
+    file_poster: config/posters/Castle Rock Entertainment.png
 
-  Dreamworks Pictures:
+  梦工厂影业: # Dreamworks Pictures
     template: { name: Studio, company: 7 }
-    summary: DreamWorks Pictures is an American film distribution label of Amblin Partners, It was founded on October 12, 1994 as an original live-action film studio by Steven Spielberg, Jeffrey Katzenberg, and David Geffen (together, SKG), of which they owned 72%. The studio formerly distributed its own and third-party films. It has produced or distributed more than ten films with box-office grosses of more than $100 million each.
+    summary: 梦工厂影业是安布林合伙公司旗下的美国电影发行品牌。它于1994年10月12日由史蒂文·斯皮尔伯格、杰弗瑞·卡森伯格和大卫·格芬（合称 SKG）作为原创真人电影工作室创立，他们拥有72%的股份。该工作室以前发行自己的和第三方的电影，制作或发行了十多部票房超过1亿美元的电影。
+    # summary: DreamWorks Pictures is an American film distribution label of Amblin Partners, It was founded on October 12, 1994 as an original live-action film studio by Steven Spielberg, Jeffrey Katzenberg, and David Geffen (together, SKG), of which they owned 72%. The studio formerly distributed its own and third-party films. It has produced or distributed more than ten films with box-office grosses of more than $100 million each.
     file_poster: config/posters/DreamWorks Pictures.png
 
-  Dreamworks Animation:
+  梦工厂动画: # Dreamworks Animation
     template: { name: Studio, company: 521 }
-    summary: A collection of all Dreamworks Animation movies.
+    summary: 梦工厂动画公司出品的所有动画电影合集。
+    # summary: A collection of all Dreamworks Animation movies.
     file_poster: config/posters/DreamWorks Animation.png
 
-#  Focus Features:
-#    template: { name: Studio, company: 10146 }
-#    summary: Focus Features is an American film production and distribution company, owned by Comcast as part of Universal Pictures, a division of its wholly owned subsidiary NBCUniversal. Focus Features distributes independent and foreign films in the United States and internationally.
-#    file_poster: config/posters/Focus Features.png
+  焦点影业: # Focus Features
+    template: { name: Studio, company: 10146 }
+    summary: 焦点影业是一家美国电影制作和发行公司，由康卡斯特通过其全资子公司 NBC环球旗下的环球影业拥有。焦点影业在美国和国际上发行独立电影和外国电影。
+    # summary: Focus Features is an American film production and distribution company, owned by Comcast as part of Universal Pictures, a division of its wholly owned subsidiary NBCUniversal. Focus Features distributes independent and foreign films in the United States and internationally.
+    file_poster: config/posters/Focus Features.png
 
-#  Hallmark:
-#    template: { name: Studio, company: "53015, 9027, 4056" }
-#    summary: Hallmark Channel is an American cable television network owned by Hallmark Media, a subsidiary of Hallmark Cards.
-#    file_poster: config/posters/Hallmark.png
+  #  Hallmark:
+  #    template: { name: Studio, company: "53015, 9027, 4056" }
+  #    summary: Hallmark 频道是美国的一个有线电视网络，由 Hallmark Cards 的子公司 Hallmark Media 拥有。
+  #    # summary: Hallmark Channel is an American cable television network owned by Hallmark Media, a subsidiary of Hallmark Cards.
+  #    file_poster: config/posters/Hallmark.png
 
-#  Happy Madison Productions:
-#    template: { name: Studio, company: 878 }
-#    summary: Happy Madison Productions is an American film and television production company founded in 1999 by Adam Sandler which is best known for its comedy films.
-#    file_poster: config/posters/Happy Madison Productions.png
-#
-#  Illumination Entertainment:
-#    template: { name: Studio, company: 6704 }
-#    summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
-#    file_poster: config/posters/Illumination Entertainment.png
-#
-#  Legendary Pictures:
-#    template: { name: Studio, company: 923 }
-#    summary: Legendary Pictures Productions is an American film production and mass media company based in Burbank, California, founded by Thomas Tull in 2000.
-#    file_poster: config/posters/Legendary Pictures.png
+  #  快乐麦迪逊制片公司: # Happy Madison Productions
+  #    template: { name: Studio, company: 878 }
+  #    summary: 快乐麦迪逊制片公司是一家由亚当·桑德勒于1999年创立的美国电影和电视制作公司，以其喜剧电影而闻名。
+  #    # summary: Happy Madison Productions is an American film and television production company founded in 1999 by Adam Sandler which is best known for its comedy films.
+  #    file_poster: config/posters/Happy Madison Productions.png
+  #
+  照明娱乐: # Illumination Entertainment
+    template: { name: Studio, company: 6704 }
+    summary: 照明娱乐是一家美国电影和动画工作室，由克里斯·梅勒丹德利于2007年创立，隶属于康卡斯特旗下 NBC环球 的分部环球影业。梅勒丹德利负责制作电影，而环球影业则负责所有电影的投资和发行。该工作室负责《神偷奶爸》和《爱宠大机密》系列，以及改编自苏斯博士著作的电影《老雷斯的故事》和《圣诞怪杰》。《神偷奶爸》系列中的小黄人是该工作室的吉祥物。
+    # summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+    file_poster: config/posters/Illumination Entertainment.png
+  #
+  传奇影业: # Legendary Pictures
+    template: { name: Studio, company: 923 }
+    summary: 传奇影业制作公司是一家美国电影制作和大众传媒公司，总部位于加利福尼亚州伯班克，由托马斯·图尔于2000年创立。
+    # summary: Legendary Pictures Productions is an American film production and mass media company based in Burbank, California, founded by Thomas Tull in 2000.
+    file_poster: config/posters/Legendary Pictures.png
 
-#  Lionsgate:
-#    template: { name: Studio, company: 1632 }
-#    summary: Lions Gate is a Canadian-American entertainment company. It was formed by Frank Giustra on July 10, 1997, domiciled in Vancouver, British Columbia, Canada and is currently headquartered in Santa Monica, California, United States.
-#    file_poster: config/posters/Lionsgate.png
+  狮门影业: # Lionsgate
+    template: { name: Studio, company: 1632 }
+    summary: 狮门娱乐是一家加拿大裔美国娱乐公司。它由弗兰克·朱斯特拉于1997年7月10日组建，注册地在加拿大不列颠哥伦比亚省温哥华，目前总部位于美国加利福尼亚州圣莫尼卡。
+    # summary: Lions Gate is a Canadian-American entertainment company. It was formed by Frank Giustra on July 10, 1997, domiciled in Vancouver, British Columbia, Canada and is currently headquartered in Santa Monica, California, United States.
+    file_poster: config/posters/Lionsgate.png
 
-  Lucasfilm:
+  卢卡斯影业: # Lucasfilm
     template: { name: Studio, company: 1 }
-    summary: Lucasfilm is an American film and television production company and a subsidiary of Walt Disney Studios, which is a business segment of The Walt Disney Company. The studio is best known for creating and producing the Star Wars and Indiana Jones franchises, as well as its leadership in developing special effects, sound, and computer animation for films.
+    summary: 卢卡斯影业是一家美国电影和电视制作公司，是华特迪士尼公司业务部门华特迪士尼影业的子公司。该工作室以创作和制作《星球大战》和《夺宝奇兵》系列而闻名，并在电影特效、音效和计算机动画方面处于领先地位。
+    # summary: Lucasfilm is an American film and television production company and a subsidiary of Walt Disney Studios, which is a business segment of The Walt Disney Company. The studio is best known for creating and producing the Star Wars and Indiana Jones franchises, as well as its leadership in developing special effects, sound, and computer animation for films.
     file_poster: config/posters/Lucasfilm.png
 
-#  Laika Animation:
-#    template: { name: Studio, company: 11537 }
-#    summary: A collection of all Laika Animation movies.
-#    file_poster: config/posters/Laika Animation.png
-#
-#  Miramax:
-#    template: { name: Studio, company: 14 }
-#    summary: Miramax is an American entertainment company known for producing and distributing films and television shows. Its headquarters are located in Los Angeles, California.
-#    file_poster: config/posters/Miramax.png
-#
-#  Madhouse:
-#    template: { name: Studio, company: 3464 }
-#    summary: Madhouse Inc. (Kabushiki-gaisha Maddohausu, stylized as MADHOUSE) is a Japanese animation studio founded in 1972 by ex–Mushi Pro animators, including Masao Maruyama, Osamu Dezaki, Rintaro and Yoshiaki Kawajiri.
-#    file_poster: config/posters/Madhouse.png
+  莱卡动画: # Laika Animation
+    template: { name: Studio, company: 11537 }
+    summary: 所有莱卡动画工作室制作的电影合集。
+    # summary: A collection of all Laika Animation movies.
+    file_poster: config/posters/Laika Animation.png
+  #
+  #  米拉麦克斯影业: # Miramax
+  #    template: { name: Studio, company: 14 }
+  #    summary: 米拉麦克斯是一家以制作和发行电影及电视节目而闻名的美国娱乐公司，总部位于加利福尼亚州洛杉矶。
+  #    # summary: Miramax is an American entertainment company known for producing and distributing films and television shows. Its headquarters are located in Los Angeles, California.
+  #    file_poster: config/posters/Miramax.png
+  #
+  #  MADHOUSE: # Madhouse (通常直接用英文名)
+  #    template: { name: Studio, company: 3464 }
+  #    summary: MADHOUSE Inc.（株式会社マッドハウス，风格化为 MADHOUSE）是一家日本动画工作室，由前虫制作公司 (Mushi Pro) 的动画师，包括丸山正雄、出崎统、林太郎和川尻善昭于1972年创立。
+  #    # summary: Madhouse Inc. (Kabushiki-gaisha Maddohausu, stylized as MADHOUSE) is a Japanese animation studio founded in 1972 by ex–Mushi Pro animators, including Masao Maruyama, Osamu Dezaki, Rintaro and Yoshiaki Kawajiri.
+  #    file_poster: config/posters/Madhouse.png
 
-#  Monkeypaw Productions:
-#    template: { name: Studio, company: 88934 }
-#    summary: Monkeypaw Productions is an American production company founded by director and producer Jordan Peele in 2012. The company is known for producing the horror films Get Out and Us. The company is named after the 1902 horror short story "The Monkey's Paw".
-#    file_poster: config/posters/Monkeypaw Productions.png
-#
-#  Metro-Goldwyn-Mayer:
-#    template: { name: Studio, company: 21 }
-#    summary: Metro-Goldwyn-Mayer is an American media company, founded in 1924, that produces and distributes feature films and television programs. It is based in Beverly Hills, California.
-#    file_poster: config/posters/Metro-Goldwyn-Mayer.png
-#
-#  NEON:
-#    template: { name: Studio, company: 90733 }
-#    summary: Neon is an American film production and distribution company founded in 2017 by CEO Tom Quinn and Tim League, who also was the co-founder of the Alamo Drafthouse Cinema chain.
-#    file_poster: config/posters/NEON.png
+  #  猴爪制片公司: # Monkeypaw Productions
+  #    template: { name: Studio, company: 88934 }
+  #    summary: 猴爪制片公司是由导演兼制片人乔丹·皮尔于2012年创立的美国制作公司。该公司以制作恐怖电影《逃出绝命镇》和《我们》而闻名。公司名称来源于1902年的恐怖短篇小说《猴爪》。
+  #    # summary: Monkeypaw Productions is an American production company founded by director and producer Jordan Peele in 2012. The company is known for producing the horror films Get Out and Us. The company is named after the 1902 horror short story "The Monkey's Paw".
+  #    file_poster: config/posters/Monkeypaw Productions.png
+  #
+  米高梅: # Metro-Goldwyn-Mayer
+    template: { name: Studio, company: 21 }
+    summary: 米高梅是一家美国媒体公司，成立于1924年，制作和发行故事片和电视节目，总部位于加利福尼亚州贝弗利山庄。
+    # summary: Metro-Goldwyn-Mayer is an American media company, founded in 1924, that produces and distributes feature films and television programs. It is based in Beverly Hills, California.
+    file_poster: config/posters/Metro-Goldwyn-Mayer.png
+  #
+  #  NEON:
+  #    template: { name: Studio, company: 90733 }
+  #    summary: Neon 是一家美国电影制作和发行公司，由首席执行官汤姆·奎因和阿拉莫库房影院 (Alamo Drafthouse Cinema) 连锁店的联合创始人蒂姆·里格于2017年创立。
+  #    # summary: Neon is an American film production and distribution company founded in 2017 by CEO Tom Quinn and Tim League, who also was the co-founder of the Alamo Drafthouse Cinema chain.
+  #    file_poster: config/posters/NEON.png
 
-#  New Line Cinema:
-#    template: { name: Studio, company: 12 }
-#    summary: New Line Productions is an American film production studio and a film production label of the Warner Bros. Pictures Group division of Warner Bros. Entertainment. It was founded in 1967 by Robert Shaye as an independent film distribution company; later becoming a film studio.
-#    file_poster: config/posters/New Line Cinema.png
+  新线影业: # New Line Cinema
+    template: { name: Studio, company: 12 }
+    summary: 新线制片公司是一家美国电影制片厂，是华纳兄弟娱乐公司旗下华纳兄弟影业集团的电影制作分支。它由罗伯特·谢伊于1967年作为一家独立的电影发行公司创立；后来成为了一家电影制片厂。
+    # summary: New Line Productions is an American film production studio and a film production label of the Warner Bros. Pictures Group division of Warner Bros. Entertainment. It was founded in 1967 by Robert Shaye as an independent film distribution company; later becoming a film studio.
+    file_poster: config/posters/New Line Cinema.png
 
-#  Orion Pictures:
-#    template: { name: Studio, company: 41 }
-#    summary: Orion Pictures, legal name Orion Releasing LLC, is an American motion picture producer owned by Metro-Goldwyn-Mayer. In its original operating period, the company produced and released films from 1978 until 1999 and was also involved in television production and syndication throughout the 1980s until the early 1990s. It was formed in 1978 as a joint venture between Warner Bros. and three former senior executives at United Artists. During this early period, Orion was considered a mini-major studio. Woody Allen, James Cameron, Jonathan Demme, Oliver Stone, and several other prominent directors worked with Orion during its most successful years from 1978 to 1992. Of the films distributed by Orion, four won Academy Awards for Best Picture Amadeus (1984), Platoon (1986), Dances with Wolves (1990), and The Silence of the Lambs (1991). Two other Orion films, Hannah and Her Sisters (1986) and Mississippi Burning (1988), were nominated for that same category. Since 1997, Orion has been owned by Metro-Goldwyn-Mayer. In 2013, Metro-Goldwyn-Mayer revived the Orion name for television; a year later, Orion Pictures was relaunched by the studio.
-#    file_poster: config/posters/Orion Pictures.png
-#
-#  Platinum Dunes:
-#    template: { name: Studio, company: 2481 }
-#    summary: Platinum Dunes is an American production company created in November 2001 by filmmakers Michael Bay, Brad Fuller, and Andrew Form. The company produces horror films, such as The Texas Chainsaw Massacre, The Purge, Friday the 13th, A Nightmare on Elm Street, Ouija, A Quiet Place, and A Quiet Place Part II.
-#    file_poster: config/posters/Platinum Dunes.png
+  #  猎户座影业: # Orion Pictures
+  #    template: { name: Studio, company: 41 }
+  #    summary: 猎户座影业，法定名称 Orion Releasing LLC，是一家隶属于米高梅的美国电影制作公司。在其最初的运营期间，该公司从1978年到1999年制作和发行电影，并在整个1980年代到1990年代初也涉足电视制作和联合发行。它于1978年由华纳兄弟与三位前联美公司高管合资成立。在此早期阶段，猎户座被认为是一家准大型制片厂。伍迪·艾伦、詹姆斯·卡梅隆、乔纳森·戴米、奥利弗·斯通等多位著名导演在猎户座最成功的1978年至1992年间与其合作。猎户座发行的电影中有四部获得了奥斯卡最佳影片奖：《莫扎特传》(1984)、《野战排》(1986)、《与狼共舞》(1990)和《沉默的羔羊》(1991)。另外两部猎户座电影《汉娜姐妹》(1986)和《密西西比在燃烧》(1988)也获得了该奖项的提名。自1997年以来，猎户座一直归米高梅所有。2013年，米高梅为电视业务重启了猎户座品牌；一年后，猎户座影业被该工作室重新启动。
+  #    # summary: Orion Pictures, legal name Orion Releasing LLC, is an American motion picture producer owned by Metro-Goldwyn-Mayer. In its original operating period, the company produced and released films from 1978 until 1999 and was also involved in television production and syndication throughout the 1980s until the early 1990s. It was formed in 1978 as a joint venture between Warner Bros. and three former senior executives at United Artists. During this early period, Orion was considered a mini-major studio. Woody Allen, James Cameron, Jonathan Demme, Oliver Stone, and several other prominent directors worked with Orion during its most successful years from 1978 to 1992. Of the films distributed by Orion, four won Academy Awards for Best Picture Amadeus (1984), Platoon (1986), Dances with Wolves (1990), and The Silence of the Lambs (1991). Two other Orion films, Hannah and Her Sisters (1986) and Mississippi Burning (1988), were nominated for that same category. Since 1997, Orion has been owned by Metro-Goldwyn-Mayer. In 2013, Metro-Goldwyn-Mayer revived the Orion name for television; a year later, Orion Pictures was relaunched by the studio.
+  #    file_poster: config/posters/Orion Pictures.png
+  #
+  #  白金沙丘: # Platinum Dunes
+  #    template: { name: Studio, company: 2481 }
+  #    summary: 白金沙丘是一家美国制作公司，由电影制作人迈克尔·贝、布拉德·富勒和安德鲁·福姆于2001年11月创立。该公司制作恐怖电影，如《德州电锯杀人狂》、《人类清除计划》、《十三号星期五》、《猛鬼街》、《死亡占卜》、《寂静之地》和《寂静之地2》。
+  #    # summary: Platinum Dunes is an American production company created in November 2001 by filmmakers Michael Bay, Brad Fuller, and Andrew Form. The company produces horror films, such as The Texas Chainsaw Massacre, The Purge, Friday the 13th, A Nightmare on Elm Street, Ouija, A Quiet Place, and A Quiet Place Part II.
+  #    file_poster: config/posters/Platinum Dunes.png
 
   Production I.G:
     template: { name: Studio, company: 529 }
-    summary: Production I.G, Inc. is a Japanese animation studio and production enterprise, founded on December 15, 1987, by Mitsuhisa Ishikawa and headquartered in Musashino, Tokyo, Japan. The letters I and G derive from the names of the company founders producer Mitsuhisa Ishikawa and character designer Takayuki Goto.
+    summary: Production I.G 公司是一家日本动画工作室和制作企业，由石川光久于1987年12月15日创立，总部位于日本东京都武藏野市。字母 I 和 G 源自公司创始人制片人石川光久 (Mitsuhisa Ishikawa) 和角色设计师后藤隆幸 (Takayuki Goto) 的名字。
+    # summary: Production I.G, Inc. is a Japanese animation studio and production enterprise, founded on December 15, 1987, by Mitsuhisa Ishikawa and headquartered in Musashino, Tokyo, Japan. The letters I and G derive from the names of the company founders producer Mitsuhisa Ishikawa and character designer Takayuki Goto.
     file_poster: config/posters/Production I.G.png
 
-  Pixar:
+  皮克斯: # Pixar
     template: { name: Studio, company: 3 }
-    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+    summary: 皮克斯动画工作室，通常简称为皮克斯，是一家位于加利福尼亚州埃默里维尔的美国电脑动画工作室，是华特迪士尼公司旗下迪士尼影业内容部门的子公司。皮克斯始于1979年卢卡斯影业的计算机部门，即图形组，之后于1986年2月3日剥离成为独立公司，并获得了苹果联合创始人史蒂夫·乔布斯的投资，后者成为其最大股东。迪士尼于2006年以74亿美元的估值收购了皮克斯，将每股皮克斯股票转换为2.3股迪士尼股票，这笔交易使得乔布斯当时成为迪士尼最大的个人股东。皮克斯以其动画长片而闻名，这些长片的技术动力来自 RenderMan，这是该公司自己对行业标准 RenderMan 接口规范图像渲染应用程序编程接口的实现。Luxo Jr.，一盏来自该工作室1986年同名短片的台灯，是该工作室的吉祥物。
+    # summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
     file_poster: config/posters/Pixar.png
 
-#  Regency Enterprises:
-#    template: { name: Studio, company: "508, 10104" }
-#    summary: Regency Enterprises is an American entertainment company formed by Arnon Milchan. It was founded in 1982 as the successor to Regency International Pictures formerly known as Embassy International Pictures N.V..
-#    file_poster: config/posters/Regency Enterprises.png
-#
-#  Relativity Media:
-#    template: { name: Studio, company: 130 }
-#    summary: Relativity Media is an American media company headquartered in Beverly Hills, California, founded in 2004 by Lynwood Spinks and Ryan Kavanaugh. The studio was the third largest mini-major globally until bankruptcy on July 30, 2015. Its full-scale film studio acquires, develops, produces and distributes films. The company's partners and financial institutions have invested $20 billion as of 2012 in entertainment investments with partners such as Citibank, Merrill Lynch, Deutsche Bank and others. Relativity Media also works in fashion, sports, digital and music.
-#    file_poster: config/posters/Relativity Media.png
+  #  Regency Enterprises: # 摄政娱乐 (较少独立作为合集)
+  #    template: { name: Studio, company: "508, 10104" }
+  #    summary: 摄政娱乐公司是一家由阿诺恩·米尔坎组建的美国娱乐公司。它成立于1982年，是 Regency International Pictures（前身为 Embassy International Pictures N.V.）的继任者。
+  #    # summary: Regency Enterprises is an American entertainment company formed by Arnon Milchan. It was founded in 1982 as the successor to Regency International Pictures formerly known as Embassy International Pictures N.V..
+  #    file_poster: config/posters/Regency Enterprises.png
+  #
+  #  相对论传媒: # Relativity Media
+  #    template: { name: Studio, company: 130 }
+  #    summary: 相对论传媒是一家美国媒体公司，总部位于加利福尼亚州贝弗利山庄，由林伍德·斯宾克斯和瑞恩·卡瓦诺于2004年创立。该工作室在2015年7月30日破产前是全球第三大准大型制片厂。其全方位电影工作室收购、开发、制作和发行电影。截至2012年，该公司的合作伙伴和金融机构已与花旗银行、美林证券、德意志银行等合作伙伴共同投资了200亿美元的娱乐投资。相对论传媒也涉足时尚、体育、数字和音乐领域。
+  #    # summary: Relativity Media is an American media company headquartered in Beverly Hills, California, founded in 2004 by Lynwood Spinks and Ryan Kavanaugh. The studio was the third largest mini-major globally until bankruptcy on July 30, 2015. Its full-scale film studio acquires, develops, produces and distributes films. The company's partners and financial institutions have invested $20 billion as of 2012 in entertainment investments with partners such as Citibank, Merrill Lynch, Deutsche Bank and others. Relativity Media also works in fashion, sports, digital and music.
+  #    file_poster: config/posters/Relativity Media.png
 
-#  Searchlight Pictures:
-#    template: { name: Studio, company: "43, 127929" }
-#    summary: Fox Searchlight Pictures. is an American film studio that is a division of 20th Century Studios, a subsidiary of Walt Disney Studios, which is part of The Walt Disney Company. A sister studio of 20th Century Studios (previously 20th Century Fox), Searchlight was founded in February 20, 1980 as Searchlight, Inc.
-#    file_poster: config/posters/Searchlight Pictures.png
-#
-#  Scott Free Productions:
-#    template: { name: Studio, company: 1645 }
-#    summary: Scott Free Productions is a British-American independent film and television production company founded in 1970 by filmmakers and brothers Ridley Scott and Tony Scott. They formed the feature film development company Percy Main Productions in 1980, naming the company after the English village Percy Main, where their father grew up. The company was renamed to Scott Free Productions in 1995. Scott Free has produced films ranging from the 2000 Hollywood blockbuster Gladiator to "smaller pictures" like Cracks. Between productions of White Squall and G.I. Jane, Ridley Scott reorganised the company.
-#    file_poster: config/posters/Scott Free Productions.png
-#
-#  Screen Gems:
-#    template: { name: Studio, company: 3287 }
-#    summary: Screen Gems, Inc. is an American film production and distribution studio that is a division of Sony Pictures's Sony Pictures Entertainment Motion Picture Group, a subsidiary of Japanese multinational conglomerate, Sony Group Corporation. It has served several different purposes for its parent companies over the decades since its incorporation. The label currently specializes in genre films, mainly horror.
-#    file_poster: config/posters/Screen Gems.png
+  探照灯影业: # Searchlight Pictures
+    template: { name: Studio, company: "43, 127929" }
+    summary: 福克斯探照灯影业是一家美国电影工作室，是华特迪士尼公司旗下华特迪士尼影业子公司二十世纪影业的一个部门。作为二十世纪影业（前身为二十世纪福克斯）的姐妹工作室，探照灯成立于1980年2月20日，前身为 Searchlight, Inc。
+    # summary: Fox Searchlight Pictures. is an American film studio that is a division of 20th Century Studios, a subsidiary of Walt Disney Studios, which is part of The Walt Disney Company. A sister studio of 20th Century Studios (previously 20th Century Fox), Searchlight was founded in February 20, 1980 as Searchlight, Inc.
+    file_poster: config/posters/Searchlight Pictures.png
+  #
+  #  Scott Free Productions: # 斯科特自由制片公司
+  #    template: { name: Studio, company: 1645 }
+  #    summary: 斯科特自由制片公司是一家英美合资的独立电影和电视制作公司，由电影制作人兄弟雷德利·斯科特和托尼·斯科特于1970年创立。他们于1980年成立了故事片开发公司 Percy Main Productions，以他们父亲长大的英国村庄 Percy Main 命名。该公司于1995年更名为斯科特自由制片公司。斯科特自由制作的电影范围广泛，从2000年的好莱坞大片《角斗士》到像《裂缝》这样的“小众影片”。在制作《巨浪》和《魔鬼女大兵》期间，雷德利·斯科特重组了公司。
+  #    # summary: Scott Free Productions is a British-American independent film and television production company founded in 1970 by filmmakers and brothers Ridley Scott and Tony Scott. They formed the feature film development company Percy Main Productions in 1980, naming the company after the English village Percy Main, where their father grew up. The company was renamed to Scott Free Productions in 1995. Scott Free has produced films ranging from the 2000 Hollywood blockbuster Gladiator to "smaller pictures" like Cracks. Between productions of White Squall and G.I. Jane, Ridley Scott reorganised the company.
+  #    file_poster: config/posters/Scott Free Productions.png
+  #
+  #  幕宝电影公司: # Screen Gems
+  #    template: { name: Studio, company: 3287 }
+  #    summary: 幕宝电影公司是一家美国电影制作和发行工作室，是索尼影业旗下索尼影视娱乐电影集团的一个部门，而后者是日本跨国企业集团索尼集团公司的子公司。自成立以来的几十年里，它为其母公司扮演了多种不同的角色。该品牌目前专注于类型片，主要是恐怖片。
+  #    # summary: Screen Gems, Inc. is an American film production and distribution studio that is a division of Sony Pictures's Sony Pictures Entertainment Motion Picture Group, a subsidiary of Japanese multinational conglomerate, Sony Group Corporation. It has served several different purposes for its parent companies over the decades since its incorporation. The label currently specializes in genre films, mainly horror.
+  #    file_poster: config/posters/Screen Gems.png
 
-  Studio Ghibli:
+  吉卜力工作室: # Studio Ghibli
     template: { name: Studio, company: 10342 }
-    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+    summary: 吉卜力工作室是一家总部位于日本东京小金井市的日本动画电影工作室。该工作室以其动画长片而闻名，也制作了多部短片、电视广告和一部电视电影。工作室的吉祥物和最知名的象征是龙猫，这个角色源自1988年的经典作品《龙猫》，是一个巨大的猫形精灵。
+    # summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
     file_poster: config/posters/Studio Ghibli.png
-#    plex_search:
-#      all:
-#        title: Nausicaä
+  #    plex_search:
+  #      all:
+  #        title: Nausicaä
 
-  Sony Pictures:
+  索尼影业: # Sony Pictures
     template:
       {
         name: Plex,
         studio: "Sony Pictures, Sony Pictures Classics, Sony Pictures Home Entertainment",
       }
-    summary: Sony Pictures Entertainment is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platforms. Through an intermediate holding company called Sony Film Holding Inc.
+    summary: 索尼影视娱乐是一家美国多元化的跨国大众媒体和娱乐工作室集团，通过多个平台制作、收购和发行影视娱乐内容（院线电影、电视节目和录制视频）。它通过一家名为索尼电影控股公司的中间控股公司运作。
+    # summary: Sony Pictures Entertainment is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platforms. Through an intermediate holding company called Sony Film Holding Inc.
     file_poster: config/posters/Sony Pictures.png
 
-  Sony Pictures Animation:
+  索尼动画: # Sony Pictures Animation
     template: { name: Studio, company: 2251 }
-    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+    summary: 索尼动画公司是一家美国动画工作室，隶属于索尼娱乐旗下索尼影视娱乐的电影集团部门，于2002年5月9日成立。该工作室的电影由索尼影业发行公司以其哥伦比亚影业品牌在全球发行，而所有直接面向视频发行的作品则由索尼影视家庭娱乐发行。
+    # summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
     file_poster: config/posters/Sony Pictures Animation.png
 
-#  Touchstone Pictures:
-#    template: { name: Plex, studio: "Touchstone Pictures" }
-#    summary: Touchstone Pictures was an American film distribution label of Walt Disney Studios Motion Pictures, created and owned by The Walt Disney Company. Feature films released under the Touchstone label were produced and financed by The Walt Disney Studios, and featured more mature themes targeted towards adult audiences than typical Disney releases. As such, Touchstone was merely a brand of the studio and did not exist as a distinct business operation.
-#    file_poster: config/posters/Touchstone Pictures.png
+  #  试金石影业: # Touchstone Pictures
+  #    template: { name: Plex, studio: "Touchstone Pictures" }
+  #    summary: 试金石影业是华特迪士尼公司创建并拥有的华特迪士尼影业电影发行品牌。在试金石品牌下发行的故事片由华特迪士尼影业制作和投资，其主题比典型的迪士尼发行影片更成熟，面向成年观众。因此，试金石仅仅是该工作室的一个品牌，并不作为独立的商业运营实体存在。
+  #    # summary: Touchstone Pictures was an American film distribution label of Walt Disney Studios Motion Pictures, created and owned by The Walt Disney Company. Feature films released under the Touchstone label were produced and financed by The Walt Disney Studios, and featured more mature themes targeted towards adult audiences than typical Disney releases. As such, Touchstone was merely a brand of the studio and did not exist as a distinct business operation.
+  #    file_poster: config/posters/Touchstone Pictures.png
 
-#  TriStar:
-#    template: { name: Plex, studio: "TriStar Pictures, TriStar Television" }
-#    summary: TriStar Pictures is an American film studio and production company that is a member of the Sony Pictures Motion Picture Group, part of the Japanese multinational conglomerate Sony.
-#    file_poster: config/posters/TriStar.png
+  三星影业: # TriStar
+    template: { name: Plex, studio: "TriStar Pictures, TriStar Television" }
+    summary: 三星影业是一家美国电影工作室和制作公司，隶属于日本跨国企业集团索尼旗下的索尼影业电影集团。
+    # summary: TriStar Pictures is an American film studio and production company that is a member of the Sony Pictures Motion Picture Group, part of the Japanese multinational conglomerate Sony.
+    file_poster: config/posters/TriStar.png
 
-#  Toei Animation:
-#    template: { name: Studio, company: 5542 }
-#    summary: Toei Animation Co is a Japanese animation studio primarily controlled by its namesake Toei Company.
-#    file_poster: config/posters/Toei Animation.png
-#
-#  Universal:
-#    template: { name: Studio, company: 33 }
-#    summary: Universal Pictures is an American film production and distribution company owned by Comcast through the NBCUniversal Film and Entertainment division of NBCUniversal.
-#    file_poster: config/posters/Universal.png
+  东映动画: # Toei Animation
+    template: { name: Studio, company: 5542 }
+    summary: 东映动画株式会社是一家主要由其同名母公司东映控制的日本动画工作室。
+    # summary: Toei Animation Co is a Japanese animation studio primarily controlled by its namesake Toei Company.
+    file_poster: config/posters/Toei Animation.png
 
-#  United Artists:
-#    template: { name: Studio, company: 60 }
-#    summary: United Artists Corporation (UA), currently doing business as United Artists Digital Studios, is an American digital production company. Founded in 1919 by D. W. Griffith, Charlie Chaplin, Mary Pickford, and Douglas Fairbanks, the studio was premised on allowing actors to control their own interests, rather than being dependent upon commercial studios. UA was repeatedly bought, sold, and restructured over the ensuing century. Metro-Goldwyn-Mayer acquired the studio in 1981 for a reported $350 million
-#    file_poster: config/posters/United Artist.png
+  环球影业: # Universal
+    template: { name: Studio, company: 33 }
+    summary: 环球影业是一家美国电影制作和发行公司，由康卡斯特通过其 NBC环球 的 NBC环球电影和娱乐部门拥有。
+    # summary: Universal Pictures is an American film production and distribution company owned by Comcast through the NBCUniversal Film and Entertainment division of NBCUniversal.
+    file_poster: config/posters/Universal.png
 
-#  Village Roadshow Pictures:
-#    template: { name: Studio, company: 79 }
-#    summary: Village Roadshow Pictures is an American co-producer and co-financier of major Hollywood motion pictures, established in 1986. It is a division under Village Roadshow Entertainment Group, which in turn is owned by australian media company Village Roadshow.
-#    file_poster: config/posters/Village Roadshow Pictures.png
+  #  联美: # United Artists
+  #    template: { name: Studio, company: 60 }
+  #    summary: 联美公司（UA），目前以联美数字工作室的名义运营，是一家美国数字制作公司。由 D.W.格里菲斯、查理·卓别林、玛丽·璧克馥和道格拉斯·范朋克于1919年创立，该工作室的前提是让演员控制自己的利益，而不是依赖于商业工作室。在接下来的一个世纪里，联美被反复买卖和重组。米高梅于1981年以据报道的3.5亿美元收购了该工作室。
+  #    # summary: United Artists Corporation (UA), currently doing business as United Artists Digital Studios, is an American digital production company. Founded in 1919 by D. W. Griffith, Charlie Chaplin, Mary Pickford, and Douglas Fairbanks, the studio was premised on allowing actors to control their own interests, rather than being dependent upon commercial studios. UA was repeatedly bought, sold, and restructured over the ensuing century. Metro-Goldwyn-Mayer acquired the studio in 1981 for a reported $350 million
+  #    file_poster: config/posters/United Artist.png
 
-  Warner Bros.:
+  #  威秀电影: # Village Roadshow Pictures
+  #    template: { name: Studio, company: 79 }
+  #    summary: 威秀电影是一家美国主要好莱坞电影的联合制片和联合投资方，成立于1986年。它是威秀娱乐集团旗下的一个部门，而后者又归澳大利亚媒体公司威秀所有。
+  #    # summary: Village Roadshow Pictures is an American co-producer and co-financier of major Hollywood motion pictures, established in 1986. It is a division under Village Roadshow Entertainment Group, which in turn is owned by australian media company Village Roadshow.
+  #    file_poster: config/posters/Village Roadshow Pictures.png
+
+  华纳兄弟: # Warner Bros.
     template: { name: Studio, company: 174 }
-    summary: Warner Bros. Pictures is an American film production studio and division of the Warner Bros. Pictures Group, a subsidiary of Warner Bros. Entertainment, which is owned by AT&T's WarnerMedia. The studio is the flagship producer of live-action feature films within the Warner Bros. Pictures Group unit, and is based at the Warner Bros.
+    summary: 华纳兄弟影业是一家美国电影制片厂，隶属于华纳兄弟娱乐旗下的华纳兄弟影业集团，而华纳兄弟娱乐则归 AT&T 旗下的华纳传媒所有。该工作室是华纳兄弟影业集团部门内真人故事片的旗舰制作方，总部位于华纳兄弟制片厂。
+    # summary: Warner Bros. Pictures is an American film production studio and division of the Warner Bros. Pictures Group, a subsidiary of Warner Bros. Entertainment, which is owned by AT&T's WarnerMedia. The studio is the flagship producer of live-action feature films within the Warner Bros. Pictures Group unit, and is based at the Warner Bros.
     file_poster: config/posters/Warner Bros..png
 
-  Warner Bros. Animation:
+  华纳兄弟动画: # Warner Bros. Animation
     template: { name: Studio, company: 25120 }
-    summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
+    summary: 华纳动画集团 (WAG) 是华纳兄弟娱乐公司的动画长片部门。成立于2013年1月7日，该工作室是已解散的2D传统手绘动画工作室华纳兄弟动画长片部（于2003年关闭）和已解散的家庭电影部门华纳兄弟家庭娱乐（于2009年关闭）的继任者。该实体也是常规动画工作室华纳兄弟动画的姐妹工作室。
+    # summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
     file_poster: config/posters/Warner Bros. Animation.png
 
-  Walt Disney Animation:
+  华特迪士尼动画工作室: # Walt Disney Animation
     template: { name: Studio, company: 3475 }
     trakt_list: https://trakt.tv/users/asmobarki/lists/disney-animated?sort=released,asc
-    summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
+    summary: 华特迪士尼动画工作室 (WDAS)，有时简称为迪士尼动画，是一家为华特迪士尼公司创作动画长片和短片的美国动画工作室。由华特·迪士尼和罗伊·O·迪士尼兄弟于1923年10月16日创立，是世界上运营时间最长的动画工作室之一。它目前作为华特迪士尼影业的一个部门组织，总部位于加利福尼亚州伯班克华特迪士尼制片厂内的罗伊·E·迪士尼动画大楼。
+    # summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
     file_poster: config/posters/Walt Disney Animation.png
 
-  Walt Disney Pictures:
+  华特迪士尼影片: # Walt Disney Pictures
     template: { name: Studio }
     trakt_list:
       - https://trakt.tv/users/jiehad/lists/walt-disney-pictures?sort=released,asc
       - https://trakt.tv/users/liudvikas/lists/walt-disney-live-action?sort=released,asc
-    summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
+    summary: 华特迪士尼影片是华特迪士尼公司旗下华特迪士尼影业的一家美国电影制作工作室。该工作室是华特迪士尼影业部门内真人故事片的旗舰制作方，总部位于加利福尼亚州伯班克的华特迪士尼制片厂。由华特迪士尼动画工作室和皮克斯动画工作室制作的动画电影也以此品牌发行。华特迪士尼影业电影发行公司负责发行和营销由华特迪士尼影片制作的电影。
+    # summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
     file_poster: config/posters/Walt Disney Pictures.png
 
-#  Wit Studio:
-#    template: { name: Studio, company: 31058 }
-#    summary: Wit Studio, Inc. is a Japanese animation studio founded on June 1, 2012, by producers at Production I.G as a subsidiary of IG Port. It is headquartered in Musashino, Tokyo, with Production I.G producer George Wada as president and Tetsuya Nakatake, also a producer at Production I.G., as a director of the studio.
-#    file_poster: config/posters/Wit Studio.png
-#
-#  The Weinstein Company:
-#    template: { name: Studio, company: 308 }
-#    summary: The Weinstein Company was an American independent film studio, founded in New York City by Bob and Harvey Weinstein in 2005. TWC was one of the largest mini-major film studios in North America prior to the firing of Harvey Weinstein following allegations of sexual harassment and assault against him, as well as financial troubles that followed. The studio eventually declared bankruptcy in February 2018, with independent studio Lantern Entertainment acquiring a majority of its film library and assets. Founder and chief executive Bob Weinstein previously owned a small stake in the company.
-#    file_poster: config/posters/The Weinstein Company.png
-#
-#  WWE Studios:
-#    template: { name: Studio, company: 10339 }
-#    summary: WWE Studios Inc. is an American film studio owned by the professional wrestling corporation WWE. WWE Studios movies frequently mix well-known actors and actresses in lead roles with WWE wrestlers, and teams with existing production and distribution companies to deliver the product at a cheaper cost for both parties.
-#    file_poster: config/posters/WWE Studios.png
+  #  WIT STUDIO: # Wit Studio (通常直接用英文名)
+  #    template: { name: Studio, company: 31058 }
+  #    summary: WIT STUDIO Inc. 是一家日本动画工作室，由 Production I.G 的制片人作为 IG Port 的子公司于2012年6月1日创立。总部位于东京武藏野市，由 Production I.G 制片人和田丈嗣担任社长，同样来自 Production I.G. 的制片人中武哲也担任工作室董事。
+  #    # summary: Wit Studio, Inc. is a Japanese animation studio founded on June 1, 2012, by producers at Production I.G as a subsidiary of IG Port. It is headquartered in Musashino, Tokyo, with Production I.G producer George Wada as president and Tetsuya Nakatake, also a producer at Production I.G., as a director of the studio.
+  #    file_poster: config/posters/Wit Studio.png
+  #
+  #  韦恩斯坦影业: # The Weinstein Company
+  #    template: { name: Studio, company: 308 }
+  #    summary: 韦恩斯坦影业是一家美国独立电影工作室，由鲍勃·韦恩斯坦和哈维·韦恩斯坦于2005年在纽约市创立。在哈维·韦恩斯坦因性骚扰和性侵指控被解雇以及随之而来的财务困境之前，TWC 是北美最大的准大型电影工作室之一。该工作室最终于2018年2月宣布破产，独立工作室 Lantern Entertainment 收购了其大部分电影库和资产。创始人兼首席执行官鲍勃·韦恩斯坦此前持有该公司少量股份。
+  #    # summary: The Weinstein Company was an American independent film studio, founded in New York City by Bob and Harvey Weinstein in 2005. TWC was one of the largest mini-major film studios in North America prior to the firing of Harvey Weinstein following allegations of sexual harassment and assault against him, as well as financial troubles that followed. The studio eventually declared bankruptcy in February 2018, with independent studio Lantern Entertainment acquiring a majority of its film library and assets. Founder and chief executive Bob Weinstein previously owned a small stake in the company.
+  #    file_poster: config/posters/The Weinstein Company.png
+  #
+  #  WWE Studios: # WWE 工作室
+  #    template: { name: Studio, company: 10339 }
+  #    summary: WWE Studios Inc. 是一家隶属于职业摔角公司 WWE 的美国电影工作室。WWE Studios 的电影经常将知名男女演员与 WWE 摔角手混合担任主角，并与现有的制作和发行公司合作，以更低的成本为双方提供产品。
+  #    # summary: WWE Studios Inc. is an American film studio owned by the professional wrestling corporation WWE. WWE Studios movies frequently mix well-known actors and actresses in lead roles with WWE wrestlers, and teams with existing production and distribution companies to deliver the product at a cheaper cost for both parties.
+  #    file_poster: config/posters/WWE Studios.png
 
   ##########################################################
   #                 STREAMING SERVICES 5.0                 #
@@ -325,7 +381,8 @@ collections:
   # Original movies from the most popular streaming services
   Apple TV+:
     template: { name: Streaming }
-    summary: Apple TV+ Original movies.
+    summary: Apple TV+ 原创电影。
+    # summary: Apple TV+ Original movies.
     visible_shared:
       - monthly(1)
       - monthly(2)
@@ -334,7 +391,8 @@ collections:
 
   Disney+:
     template: { name: Streaming }
-    summary: Disney Original movies.
+    summary: Disney+ 原创电影。
+    # summary: Disney Original movies.
     visible_shared:
       - monthly(7)
       - monthly(8)
@@ -343,7 +401,8 @@ collections:
 
   Max:
     template: { name: Streaming }
-    summary: HBO & Max original movies.
+    summary: HBO 及 Max 原创电影。
+    # summary: HBO & Max original movies.
     visible_shared:
       - monthly(13)
       - monthly(14)
@@ -355,35 +414,41 @@ collections:
 
   HULU:
     template: { name: Streaming }
-    summary: HULU Original movies.
+    summary: HULU 原创电影。
+    # summary: HULU Original movies.
     visible_shared: monthly(30)
     file_poster: config/posters/HULU.png
     trakt_list: https://trakt.tv/users/k0meta/lists/hulu-originals?sort=rank,asc
 
   Netflix:
     template: { name: Streaming }
-    summary: Netflix Original movies.
+    summary: Netflix 原创电影。
+    # summary: Netflix Original movies.
     visible_shared:
       - monthly(25)
       - monthly(26)
     file_poster: config/posters/Netflix.png
     trakt_list: https://trakt.tv/users/k0meta/lists/netflix-originals?sort=rank,asc
 
-  Paramount+:
+  Paramount+: # 派拉蒙+
     template: { name: Streaming }
-    summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
+    summary: 派拉蒙影业公司是一家美国电影电视制作发行公司，是派拉蒙全球的主要同名子公司。它是世界上第五古老的电影制片厂，美国第二古老的电影制片厂（仅次于环球影业），也是好莱坞“五大”电影公司中唯一仍在洛杉矶市界内的成员。这个合集包含其流媒体平台 Paramount+ 的原创电影。
+    # summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
     visible_shared: monthly(31)
     file_poster: config/posters/Paramount+.png
     trakt_list: https://trakt.tv/users/k0meta/lists/paramount-originals?sort=rank,asc
 
   Peacock:
     template: { name: Streaming }
+    summary: Peacock 原创电影。 # (Peacock 是 NBC环球旗下的流媒体平台)
+    # file_poster: config/posters/Peacock.png # 原文件无此简介，添加一个
     file_poster: config/posters/Peacock.png
     trakt_list: https://trakt.tv/users/k0meta/lists/peacock-originals?sort=rank,asc
 
-  Prime Video:
+  Prime Video: # 亚马逊 Prime Video
     template: { name: Streaming }
-    summary: Amazon Original movies.
+    summary: 亚马逊原创电影。
+    # summary: Amazon Original movies.
     visible_shared:
       - monthly(19)
       - monthly(20)
